@@ -1,0 +1,77 @@
+.footer__container {
+    display: flex;
+    background-color: #2b2b2b;
+    padding: 40px;
+}
+
+.footer__container > div > span {
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.footer__container > div > a {
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.footer__container > div > a:hover {
+    color: rgb(220,230,240, .8);
+    font-size: 1.05em;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px;
+}
+
+.addons {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px;
+}
+
+.company {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px;
+}
+
+.servicearea {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px;
+}
+
+.title {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+    .footer__container {
+        flex-direction: column;
+        padding: 40px 0;
+    }
+
+    .footer__container > div {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (min-width: 750px) and (max-width: 900px) {
+    .footer__container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .footer__container > div {
+        margin-bottom: 40px;
+    }
+}
