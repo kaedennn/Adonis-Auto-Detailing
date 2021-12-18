@@ -10,13 +10,14 @@ export default function Homepage() {
     return (
         <div className='homepage__container'>
            <div className='homepage__top'>
-               <h1>Dedicated and Thorough Auto Detailing in Queens,NY</h1>
-               <h2>With over 75+ five star reviews from our customers on Google, Yelp and Facebook.</h2>
-               <h3>Attentive and Communicative Queens Auto Detailer</h3>
+               <div className='overlay'/>
+               <h1 className='homepage__top__text bold'>Dedicated and Thorough Auto Detailing</h1>
+               <h2 className='homepage__top__text'>With over 75+ five star reviews from our customers.</h2>
+               <h3 className='homepage__top__text'>Attentive and Communicative Queens Auto Detailer</h3>
            </div>
            <div className='homepage__middle'>
                <div>
-                <h2>Aren’t you tired of the lack of quality work presented to you by our local car washes in Queens?</h2>
+                <h2 className='bold'>Aren’t you tired of the lack of quality work presented to you by our local car washes in Queens?</h2>
                 <p>
                     You get to the car wash and see a long line for them to service your car.
                     Sometimes you have to wait there for an hour at most until someone comes to you
@@ -59,6 +60,30 @@ export default function Homepage() {
                <div className='homepage__addons'>
                    <Addons/>
                </div>
+           </div>
+           <div className='homepage__moreinfo'>
+           <div className='overlay'/>
+               <h1 className='overlay__text bold'>A bit more information about the Auto Detailing Services</h1>
+               <h5 className='overlay__text'>
+                   We currently welcome all of New York City and Nassau County to try out our services. Yet since
+                    New York City is a big city, we are currently based in Queens. We look forward to being able to
+                    expand to more locations or become Mobile and service our neighboring boroughs and for
+                    them to get to know the Adonis Mobile Detailing brand!
+                </h5>
+                <h5 className='overlay__text'>
+                    We know how hard is too find a place where your car can be thoroughly cleaned, even in this
+                    big city where you can find almost anything! We look forward in servicing your vehicle and we
+                    will do our best to make you happy!
+                </h5>
+                <h5 className='overlay__text' >
+                    We try to pay attention to every single detail of your car and put ourselves in your shoes to see
+                    if you’re satisfied with the work. Yet, as humans, we could be prone to missing something, so if
+                    you see something that you’re not happy with, we will fix as soon as possible.
+                </h5>
+                <h5 className='overlay__text'>
+                    Remember, we are here to enhance your vehicle from its previous state, to the realm of reality.
+                    If it’s something, that we can’t fix, we will tell you beforehand or during the detail.
+                </h5>
            </div>
         </div>
     )

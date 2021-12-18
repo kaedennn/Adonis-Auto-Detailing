@@ -1,11 +1,11 @@
 import React from 'react'
 
-import { GiBubbles } from 'react-icons/gi'
-
 import nose from '../../assets/addons_photos/nose.png';
-import cig from '../../assets/addons_photos/cig.png';
 import engine from '../../assets/addons_photos/engine.png';
-import bubbles from '../../assets/addons_photos/bubbles.png'
+import bubbles from '../../assets/addons_photos/bubbles.png';
+import carinterior from '../../assets/addons_photos/carinterior.png';
+import carheadlight from '../../assets/addons_photos/carheadlight.png';
+import carscratch from '../../assets/addons_photos/carscratch.png';
 
 import './addons.styles.css';
 
@@ -18,32 +18,27 @@ export default function Addons() {
         },
         {
             title: 'Basic interior detail',
-            picture: <GiBubbles/>,
+            picture: carinterior,
             description: "the basic interior is more of a maintenance type of service. A light service will be done in the whole interior and an interior dressing, to protect it from UV rays and give it a nice shine."
         },
         {
             title: 'Odor Removal',
             picture: nose,
-            description: "Do you have a car with mold/mildew, musty and any other types of foul smells that you need to get rid of? Let us help you with this issue."
+            description: "Do you have a car with mold/mildew, musty, cigarette smoke and any other types of foul smells that you need to get rid of? Let us help you with this issue."
         },
         {
             title: 'Premier Car Wash',
             picture: bubbles,
-            description: "This wash is a deep contamination wash that we provide. We hand wash every single part of your vehicle and remove all traffic film that has accumulated over time and we use a clay bar to remove stuck on dirt. A protective spray sealant/wax that last between 3 to 6 weeks is applied to protect the paint of your car and also to make it stand out. Tires and rims are also taken care of as well."
+            description: "We hand wash every single part of your vehicle and remove all traffic film that has accumulated over time and we use a clay bar to remove stuck on dirt. A protective spray sealant/wax that last between 3 to 6 weeks is applied to protect the paint of your car and also to make it stand out."
         },
         {
             title: 'Headlight Restoration',
-            picture: <GiBubbles/>,
+            picture: carheadlight,
             description: "Has your headlights started to look foggy or not as bright as it used to be? We can help you restore them without even replacing them. Learn more"
         },
         {
-            title: 'Smoke Odor Removal',
-            picture: cig,
-            description: "Could be that you’re a heavy smoker and your trying to quit and looking to decontaminate your entire car. Or you recently bought a used car and the previous owner was a heavy smoker and you need it fully decontaminated?"
-        },
-        {
             title: 'Scratch Removal',
-            picture: <GiBubbles/>,
+            picture: carscratch,
             description: "Living in NYC can be a hassle, and things such as bikes or cars scratching your car. Or maybe someone keyed your car and you want those scratches removed? We can help!"
         },
     ]
@@ -54,7 +49,7 @@ export default function Addons() {
                 <h2 className='title'>{addon.title}</h2>
                 <img className='picture' src={addon.picture} alt='addon-icon'/>
                 <p>{addon.description}</p>
-                <button>Learn More</button>
+                <button className='learn'>Learn More</button>
             </div>
         )
     }

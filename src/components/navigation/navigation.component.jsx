@@ -9,7 +9,7 @@ import './navigation.styles.css';
 export default function Navigation() {
     return (
         <div className='container-fluid'>
-            <Navbar className='nav' bg="red" expand="lg" collapseOnSelect>
+            <Navbar className='nav' bg="red" expand="lg" fixed="top" collapseOnSelect>
                 <Navbar.Brand>
                     <img src={logo} height="30px" alt='logo'/>
                 </Navbar.Brand>
@@ -24,8 +24,8 @@ export default function Navigation() {
                         <NavDropdown.Item>Deep Interior Detailing</NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown title='Exterior'>
-                        <NavDropdown.Item>Premier Car Wash Detailing</NavDropdown.Item>
-                        <NavDropdown.Item>Adonis Car Wash and Wax Detailing</NavDropdown.Item>
+                        <NavDropdown.Item>Premier Car Wash</NavDropdown.Item>
+                        <NavDropdown.Item href='adonis-wash-and-wax'>Adonis Car Wash and Wax</NavDropdown.Item>
                         <NavDropdown.Item>Paint Enhancement</NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown title="Add-ons">

@@ -5,7 +5,21 @@
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
+body {overflow-x: hidden;}
+
 a {
     text-decoration: none;
     color: white;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* remove this soon */
+.learn {
+    background-color: #c92d2d;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
 }

@@ -3,12 +3,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 4px solid #c92d2d;
     background-color: gray;
     width: auto;
     height: 350px;
     padding: 20px;
     border-radius: 20px;
+    box-shadow: 0px 0px 11px -2px #000000;
 }
 
 .title {
@@ -18,5 +18,4 @@
 .picture {
     width: 70px;
     height: 70px;
-    margin: 25px;
 }
