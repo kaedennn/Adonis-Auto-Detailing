@@ -16,6 +16,96 @@ a {
     font-weight: bold;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+p {
+    font-size: 1.2vw;
+}
+
+h1 {
+    font-size: 2.3vw;
+}
+
+h2 {
+    font-size: 1.8vw
+}
+
+h3 {
+    font-size: 1.8vw;
+}
+
+h4 {
+    font-size: 1.55vw;
+}
+
+h5 {
+    font-size: 1.3vw;
+}
+
+h6 {
+    font-size: 1.2vw;
+}
+
+span {
+    font-size: 1.05vw;
+}
+
+a {
+    font-size: 1.05vw;
+}
+
+@media screen and (max-width: 600px) {
+    p {
+        font-size: 4.2vw;
+    }
+    
+    h1 {
+        font-size: 6vw;
+    }
+    
+    h2 {
+        font-size: 4.5vw
+    }
+
+    h3 {
+        font-size: 4.4vw;
+    }
+    
+    h4 {
+        font-size: 4vw;
+    }
+    
+    h5 {
+        font-size: 3.5vw;
+    }
+    
+    h6 {
+        font-size: 2.5vw;
+    }
+
+    span {
+        font-size: 4.6vw;
+    }
+
+    a {
+        font-size: 4.6vw;
+    }
+
+    li {
+        font-size: 4.5vw;
+    }
+}
+
+@media screen and (min-width: 750px) and (max-width: 900px) {
+    
+}
+
 /* remove this soon */
 .learn {
     background-color: #c92d2d;

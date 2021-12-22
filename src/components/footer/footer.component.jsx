@@ -10,32 +10,32 @@ export default function Footer() {
         <div className='footer__container'>
             <div className='services'>
                 <span className='title'>Services</span>
-                <span>Complete Detail</span>
-                <span>Adonis Car Wash &amp; Wax Detail</span>
-                <span>Deep Interior Detailing</span>
-                <span>Paint Enhancement</span>
-                <span>Ceramic Coating</span>
+                <Link to='complete-detail'>Complete Detail</Link>
+                <Link to='adonis-wash-and-wax'>Adonis Car Wash &amp; Wax Detail</Link>
+                <Link to='deep-interior-detail'>Deep Interior Detail</Link>
+                <Link to='paint-enhancement'>Paint Enhancement</Link>
+                <Link to='ceramic-coating'>Ceramic Coating</Link>
             </div>
             <div className='addons'>
                 <span className='title'>Add-ons</span>
-                <span>Basic Interior Detailing</span>
-                <span>Engine Bay Cleaning</span>
-                <span>Odor Removal</span>
-                <span>Premier Car Wash</span>
-                <span>Headlight Restoration</span>
-                <span>Smoke Odor Removal</span>
+                <Link to='basic-detail'>Basic Interior Detailing</Link>
+                <Link to='engine-bay'>Engine Bay Cleaning</Link>
+                <Link to='oder-removal'>Oder Removal</Link>
+                <Link to='premier-wash'>Premier Car Wash</Link>
+                <Link to='headlight-restoration'>Headlight Restoration</Link>
+                <Link to='smoke-removal'>Smoke Oder Removal</Link>
+                <Link to='ceramic-coating'>Ceramic Coating</Link>
             </div>
             <div className='company'>
                 <span className='title'>Company</span>
                 <Link to='gallery'>Gallery</Link>
                 <span>Customer Reviews</span>
-                <span>Auto Detailing Faqs</span>
+                <Link to='faq'>FAQ(s)</Link>
             </div>
             <div className='servicearea'>
                 <span className='title'>Service Area</span>
-                <span>Queens</span>
-                <span>Car Detail Near me</span>
-                <span>Flushing</span>
+                <Link to='queens'>Queens</Link>
+                <Link to='flushing'>Flushing</Link>
                 <span> Mobile Detailing</span>
             </div>
             <div className='contact'>
@@ -56,6 +56,11 @@ export default function Footer() {
                         <AiFillYoutube/>
                     </a>
                 </div>
+            </div>
+            <div className="developer">
+                <a href='https://www.kaedenmontgomery.com/' rel='noopener noreferrer' target="_blank">
+                    Made by Kaeden Montgomery
+                </a>
             </div>
         </div>
     )

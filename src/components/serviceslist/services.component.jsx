@@ -21,25 +21,25 @@ export default function Service() {
             title: 'Deep interior detail',
             picture: carwash,
             description: "Now the deep interior detail is for those that use the car on an everyday basis, or have children and spills happen, etc. A protective dressing will be put on all plastic surfaces, giving it an amazing look in the inside and feeling fresh once you step inside your car.",
-            link: '/'
+            link: 'deep-interior-detail'
         },
         {
             title: 'Complete Detail',
             picture: cardetail,
             description: "This is a combination of both the Deep Interior Detail and Adonis Wash and Wax. This service is ideal for everyday drivers, or for cars that haven’t been cleaned in a long time. A deep clean inside and outside will give your car fresh look.",
-            link: '/'
+            link: 'complete-detail'
         },
         {
             title: 'Paint Enhancement',
             picture: paintenhance,
             description: "Tired of seeing swirls marks, small scratches or the paint of your car is dulling? Let’s get your car’s vehicle paint, new life again!",
-            link: '/'
+            link: 'paint-enhancement'
         },
         {
             title: 'Ceramic Coating',
             picture: ceramic,
             description: "Get your car’s paint protected from all traffic film and have a glass like protection.",
-            link: '/'
+            link: 'ceramic-coating'
         },
     ]
 

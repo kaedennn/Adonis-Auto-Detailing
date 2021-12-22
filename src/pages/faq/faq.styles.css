@@ -1,10 +1,10 @@
-.washwax__top {
+.faq__top {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
-    background: url(../../assets/wash-and-wax/cars.png) no-repeat center center fixed; 
+    background: url(../../assets/faq/background.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -15,16 +15,7 @@
     z-index: 1;
 }
 
-.washwax__top__text {
+.faq__top__text {
     margin: 0 5%;
     text-align: center;
-}
-
-.overlay {
-    position: absolute;
-    background-color: rgba(0,0,0,.5);
-    width: 100%;
-    top:0;
-    height: 100%;
-    z-index: -1;
 }
