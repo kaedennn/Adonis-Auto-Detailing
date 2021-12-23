@@ -141,3 +141,15 @@
 .link:hover {
     color: red;
 }
+
+@media screen and (max-width: 600px) {
+    .link {
+        font-size: 2vw;
+        color: red;
+    }
+}
+
+.bottomtext {
+    margin-left: 20px;
+    margin-right: 20px;
+}
