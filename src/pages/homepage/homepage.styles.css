@@ -141,6 +141,6 @@
 
 @media (hover:none) {
     .homepage__top {
-        background-attachment: scroll;
+        background-attachment: initial;
     }
 }
