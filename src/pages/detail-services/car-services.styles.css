@@ -125,9 +125,3 @@
     font-size: 400vw !important;
     padding: 15px;
 }
-
-@media (hover:none) {
-    .car__servicepage__top {
-        background-attachment: initial;
-    }
-}
