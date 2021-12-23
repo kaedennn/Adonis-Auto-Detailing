@@ -73,8 +73,7 @@
 @media screen and (min-width: 750px) and (max-width: 900px) {
     .footer__container {
         display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
+        flex-direction: column;
     }
     .footer__container > div {
         margin-bottom: 40px;
