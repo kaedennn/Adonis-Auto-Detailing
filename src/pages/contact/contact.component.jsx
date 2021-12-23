@@ -12,7 +12,8 @@ export default function Contact() {
             backgroundSize: 'cover',
             WebkitBackgroundSize: 'cover',
             MozBackgroundSize: 'cover',
-            OBackgroundSize: 'cover'
+            OBackgroundSize: 'cover',
+            backgroundAttachment: 'scroll'
         }}>
                <div className='overlay'/>
                <h1 className='contact__top__text bold'>Feel Free To Contact Us</h1>

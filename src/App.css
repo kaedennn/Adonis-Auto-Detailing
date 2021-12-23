@@ -106,12 +106,6 @@ a {
     
 }
 
-@media (hover:none) {
-    :root {
-        background-attachment: initial;
-    }
-}
-
 /* remove this soon */
 .learn {
     background-color: #c92d2d;

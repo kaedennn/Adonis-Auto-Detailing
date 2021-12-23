@@ -14,7 +14,8 @@ export default function SmokeRemoval() {
                 backgroundSize: 'cover',
                 WebkitBackgroundSize: 'cover',
                 MozBackgroundSize: 'cover',
-                OBackgroundSize: 'cover'
+                OBackgroundSize: 'cover',
+                backgroundAttachment: 'scroll'
             }}>
                <div className='overlay'/>
                <h1 className='car__servicepage__top__text bold'>Best Smoke Odor Removal Services in Queens, NY</h1>

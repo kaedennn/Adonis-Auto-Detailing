@@ -14,7 +14,8 @@ export default function BasicDetail() {
                 backgroundSize: 'cover',
                 WebkitBackgroundSize: 'cover',
                 MozBackgroundSize: 'cover',
-                OBackgroundSize: 'cover'
+                OBackgroundSize: 'cover',
+                backgroundAttachment: 'scroll'
             }}>
                <div className='overlay'/>
                <h1 className='car__servicepage__top__text bold'>Get your vehicle detailed quickly but the right way, right in the heart of Queens.</h1>

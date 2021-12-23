@@ -14,7 +14,8 @@ export default function HeadlightRestoration() {
                 backgroundSize: 'cover',
                 WebkitBackgroundSize: 'cover',
                 MozBackgroundSize: 'cover',
-                OBackgroundSize: 'cover'
+                OBackgroundSize: 'cover',
+                backgroundAttachment: 'scroll'
             }}>
                <div className='overlay'/>
                <h1 className='car__servicepage__top__text bold'>The only and best Headlight Restoration services in Queens</h1>

@@ -14,7 +14,8 @@ export default function OderRemoval() {
                 backgroundSize: 'cover',
                 WebkitBackgroundSize: 'cover',
                 MozBackgroundSize: 'cover',
-                OBackgroundSize: 'cover'
+                OBackgroundSize: 'cover',
+                backgroundAttachment: 'scroll'
             }}>
                <div className='overlay'/>
                <h1 className='car__servicepage__top__text bold'>Mold, Mildew or Foul smells, we offer Queens #1 Odor Removal.</h1>

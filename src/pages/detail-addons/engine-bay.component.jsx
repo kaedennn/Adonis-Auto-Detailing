@@ -14,7 +14,8 @@ export default function EngineBay() {
                 backgroundSize: 'cover',
                 WebkitBackgroundSize: 'cover',
                 MozBackgroundSize: 'cover',
-                OBackgroundSize: 'cover'
+                OBackgroundSize: 'cover',
+                backgroundAttachment: 'scroll'
             }}>
                <div className='overlay'/>
                <h1 className='car__servicepage__top__text bold'>Cleaning your engine bay back to life, here in Queens, NY</h1>

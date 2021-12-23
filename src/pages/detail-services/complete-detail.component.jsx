@@ -15,6 +15,7 @@ export default function CompleteDetail() {
                 WebkitBackgroundSize: 'cover',
                 MozBackgroundSize: 'cover',
                 OBackgroundSize: 'cover',
+                backgroundAttachment: 'scroll'
             }}>
                <div className='overlay'/>
                <h1 className='car__servicepage__top__text bold'>Revamp your vehicle with a Complete Detail, right here in Queens, NYC.</h1>
