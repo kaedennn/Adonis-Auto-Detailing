@@ -21,6 +21,8 @@ import CeramicCoating from './pages/detail-addons/ceramic-coating.component';
 import Queens from './pages/locations/queens.component';
 import Flushing from './pages/locations/flushing.component';
 import FAQ from './pages/faq/faq.component';
+import MobileDetailing from './pages/mobile-detailing/mobile-detailing.component';
+import Testimonials from './pages/testimonials/testimonials.component';
 
 import './App.css';
 
@@ -46,6 +48,8 @@ function App() {
         <Route path='queens' element={<Queens/>}/>
         <Route path='flushing' element={<Flushing/>}/>
         <Route path='faq' element={<FAQ/>}/>
+        <Route path='mobile-detailing' element={<MobileDetailing/>}/>
+        <Route path='testimonials' element={<Testimonials/>}/>
       </Routes>
       <Footer/>
     </div>

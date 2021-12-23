@@ -17,7 +17,7 @@ export default function Navigation() {
                 <Navbar.Collapse className='justify-content-end'>
                 <Nav>
                     <Nav.Link href='/'>Home</Nav.Link>
-                    <Nav.Link>Testimonials</Nav.Link>
+                    <Nav.Link href='testimonials'>Testimonials</Nav.Link>
                     <Nav.Link href='gallery'>Gallery</Nav.Link>
                     <NavDropdown title="Interior">
                         <NavDropdown.Item href='complete-detail'>Complete Detail</NavDropdown.Item>

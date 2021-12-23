@@ -29,14 +29,14 @@ export default function Footer() {
             <div className='company'>
                 <span className='title'>Company</span>
                 <Link to='gallery'>Gallery</Link>
-                <span>Customer Reviews</span>
+                <Link to='testimonials'>Customer Reviews</Link>
                 <Link to='faq'>FAQ(s)</Link>
             </div>
             <div className='servicearea'>
                 <span className='title'>Service Area</span>
                 <Link to='queens'>Queens</Link>
                 <Link to='flushing'>Flushing</Link>
-                <span> Mobile Detailing</span>
+                <Link to='mobile-detailing'>Mobile Detailing</Link>
             </div>
             <div className='contact'>
                 <span className='title'>Contact</span>
