@@ -110,11 +110,3 @@ a {
 @media screen and (min-width: 750px) and (max-width: 900px) {
     
 }
-
-/* remove this soon */
-.learn {
-    background-color: #c92d2d;
-    padding: 10px 20px;
-    border-radius: 20px;
-    border: none;
-}

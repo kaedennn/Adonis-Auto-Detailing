@@ -63,7 +63,7 @@ export default function Addons() {
                 <h2 className='title'>{addon.title}</h2>
                 <img className='picture' src={addon.picture} alt='addon-icon'/>
                 <p>{addon.description}</p>
-                <Link to={addon.link}>
+                <Link to={addon.link} >
                     <button className='learn'>Learn More</button>
                 </Link>
             </div>
