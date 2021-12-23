@@ -18,7 +18,7 @@ export default function CompleteDetail() {
                 backgroundAttachment: 'scroll'
             }}>
                <div className='overlay'/>
-               <h1 className='car__servicepage__top__text bold'>Revamp your vehicle with a Complete Detail, right here in Queens, NYC.</h1>
+               <h1 className='car__servicepage__top__text bold'>Revamp your vehicle with a Complete Detail right here in Queens, NYC.</h1>
                <h2 className='car__servicepage__top__text'>The only one spot in Queens where not only you will get our complete attention, but your car will get the best detail.</h2>
            </div>
            <div className='car__servicepage__middle'>
@@ -37,7 +37,7 @@ export default function CompleteDetail() {
                         And what is part of the complete detail?
                     </p>
                     <p>
-                        It’s both the deep interior detail and Adonis Wash and Wax combined together. Should you want, consider getting an engine bay cleaning.
+                        It’s both the <a href='deep-interior-detail'>Deep Interior Detail</a> and <a href='adonis-wash-and-wax'>Adonis Wash and Wax</a> combined together. Should you want, consider getting an engine bay cleaning.
                     </p>
                     <p>
                         Have in mind; the complete detail service is not the same as what many of the other local car wash provides.
@@ -157,7 +157,7 @@ export default function CompleteDetail() {
                         <h5>Anywhere from to 3 to 6 months, and this all depends on how often you use your car, or if it’s outside on a consistent basis. </h5>
                     </div>
                </div>
-               <h6>You can visit our dedicated FAQ PAGE to find the answers that you are looking for. And if you can’t find the answer, you can always contact me, Junior@adonisautodetailing.com and I will try to answer you as soon as possible.</h6>
+               <h6>You can visit our dedicated FAQ PAGE to find the answers that you are looking for. And if you can’t find the answer, you can always contact me, <a className='link' href='mailto:junior@adonisautodetailing.com'>junior@adonisautodetailing.com</a> and I will try to answer you as soon as possible.</h6>
            </div>
         </div>
     )

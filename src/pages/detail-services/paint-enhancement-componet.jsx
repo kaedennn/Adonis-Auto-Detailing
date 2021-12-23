@@ -40,10 +40,10 @@ export default function PaintEnhancement() {
                         What we will be doing is correcting and waxing those imperfections at the same time. 
                     </p>
                     <p>
-                        This process takes a little longer the Adonis Wash and Wax service and we need to make sure to wash, decontaminate the entire vehicle before the enhancement. 
+                        This process takes a little longer the <a href='adonis-wash-and-wax'>Adonis Wash and Wax</a> service and we need to make sure to wash, decontaminate the entire vehicle before the enhancement. 
                     </p>
                     <p>
-                        Ask about our Deep interior Detail to go along with this service, to have your entire car looking like new again! Or if you need to remove scratches, look into our Scratch Removal.
+                        Ask about our <a href='deep-interior-detail'>Deep interior Detail</a> to go along with this service, to have your entire car looking like new again! Or if you need to remove scratches.
                     </p>
                </div>
                <img className='car__servicepage__img' src={PaintCarImage} alt='wash-wax-car'/>
@@ -70,7 +70,7 @@ export default function PaintEnhancement() {
                             <h3>2 doors (sports car)</h3>
                         </div>
                         <div className="service__price">
-                            <span>$225</span>
+                            <h1>$225</h1>
                         </div>
                     </div>
                     <div className="pricing__card">
@@ -78,7 +78,7 @@ export default function PaintEnhancement() {
                             <h4>4 doors (regular sedan)</h4>
                         </div>
                         <div className="service__price">
-                            <span>$250</span>
+                            <h1>$250</h1>
                         </div>
                     </div>
                     <div className="pricing__card">
@@ -86,7 +86,7 @@ export default function PaintEnhancement() {
                             <h4>Mid-size Sedan</h4>
                         </div>
                         <div className="service__price">
-                            <span>$275</span>
+                            <h1>$275</h1>
                         </div>
                     </div>
                     <div className="pricing__card">
@@ -94,7 +94,7 @@ export default function PaintEnhancement() {
                             <h4>SUV or Van</h4>
                         </div>
                         <div className="service__price">
-                            <span>$300</span>
+                            <h1>$300</h1>
                         </div>
                     </div>
                </div>
@@ -121,7 +121,7 @@ export default function PaintEnhancement() {
                         <h5>For the time being we don’t offer mobile services. We have a location in 130-17 58th Ave, Flushing NY 11355</h5>
                     </div>
                </div>
-               <h6>You can visit our dedicated FAQ PAGE to find the answers that you are looking for. And if you can’t find the answer, you can always contact me, Junior@adonisautodetailing.com and I will try to answer you as soon as possible.</h6>
+               <h6>You can visit our dedicated FAQ PAGE to find the answers that you are looking for. And if you can’t find the answer, you can always contact me, <a className='link' href='mailto:junior@adonisautodetailing.com'>junior@adonisautodetailing.com</a> and I will try to answer you as soon as possible.</h6>
            </div>
         </div>
     )

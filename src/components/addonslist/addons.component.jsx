@@ -6,6 +6,7 @@ import engine from '../../assets/addons_photos/engine.png';
 import bubbles from '../../assets/addons_photos/bubbles.png';
 import carinterior from '../../assets/addons_photos/carinterior.png';
 import carheadlight from '../../assets/addons_photos/carheadlight.png';
+import cig from '../../assets/addons_photos/cig.png';
 // import carscratch from '../../assets/addons_photos/carscratch.png';
 
 import './addons.styles.css';
@@ -41,6 +42,12 @@ export default function Addons() {
             picture: carheadlight,
             description: "Has your headlights started to look foggy or not as bright as it used to be? We can help you restore them without even replacing them.",
             link:'headlight-restoration'
+        },
+        {
+            title: 'Smoke Odor Removal',
+            picture: cig,
+            description: "Could be that you’re a heavy smoker and your trying to quit and looking to decontaminate your entire car. Or you recently bought a used car and the previous owner was a heavy smoker and you need it fully decontaminated?",
+            link:'smoke-removal'
         },
         // {
         //     title: 'Scratch Removal',

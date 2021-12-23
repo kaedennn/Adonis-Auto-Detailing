@@ -18,7 +18,7 @@ export default function EngineBay() {
                 backgroundAttachment: 'scroll'
             }}>
                <div className='overlay'/>
-               <h1 className='car__servicepage__top__text bold'>Cleaning your engine bay back to life, here in Queens, NY</h1>
+               <h1 className='car__servicepage__top__text bold'>Cleaning your engine bay back to life here in Queens, NY</h1>
                <h2 className='car__servicepage__top__text'>Making your engine look like you’re driving it off the lot for the first time</h2>
            </div>
            <div className='car__servicepage__middle'>
@@ -29,7 +29,7 @@ export default function EngineBay() {
                     <p>
                         Ever open up the hood of your car, and you’re like “Whoa, it’s very dusty!” Yet you don’t know how to clean it and
                         are afraid of getting it damaged? Leave it to us, the professionals to get it cleaned for you. In order to get this
-                        detailed done, it must accompanied by other services such as Deep Interior Detail or Premier Car Wash .
+                        detailed done, it must accompanied by other services such as <a href='deep-interior-detail'>Deep Interior Detail</a> or <a href='premier-wash'>Premier Car Wash</a>.
                     </p>
                     <p>
                         We will inspect the engine bay first to make sure there isn’t any damage that we can do to the car. If you know
@@ -60,34 +60,10 @@ export default function EngineBay() {
                <div className="cards__container">
                     <div className="pricing__card">
                         <div className="pricing__card__title">
-                            <h3>2 doors (sports car)</h3>
+                            <h3>All size cars</h3>
                         </div>
                         <div className="service__price">
-                            <span>$85</span>
-                        </div>
-                    </div>
-                    <div className="pricing__card">
-                        <div className="pricing__card__title">
-                            <h4>4 doors (regular sedan)</h4>
-                        </div>
-                        <div className="service__price">
-                            <span>$85</span>
-                        </div>
-                    </div>
-                    <div className="pricing__card">
-                        <div className="pricing__card__title">
-                            <h4>Mid-size Sedan</h4>
-                        </div>
-                        <div className="service__price">
-                            <span>$85</span>
-                        </div>
-                    </div>
-                    <div className="pricing__card">
-                        <div className="pricing__card__title">
-                            <h4>SUV or Van</h4>
-                        </div>
-                        <div className="service__price">
-                            <span>$85</span>
+                            <h1>$85</h1>
                         </div>
                     </div>
                </div>
@@ -107,12 +83,8 @@ export default function EngineBay() {
                         <h3>How often should I get my engine bay cleaned?</h3>
                         <h5>The more you use your car, the dirtier your engine will get due to the use you are giving it. Our best suggestion is to google your vehicle type and see what recommendations they give or contact the makers of the vehicles.</h5>
                     </div>
-                    <div className="question">
-                        <h3>Do you offer mobile services?</h3>
-                        <h5>Unfortunately, we do not offer mobile services at this given time. When mobile services become available, we will update our information.</h5>
-                    </div>
                </div>
-               <h6>You can visit our dedicated FAQ PAGE to find the answers that you are looking for. And if you can’t find the answer, you can always contact me, Junior@adonisautodetailing.com and I will try to answer you as soon as possible.</h6>
+               <h6>You can visit our dedicated FAQ PAGE to find the answers that you are looking for. And if you can’t find the answer, you can always contact me, <a className='link' href='mailto:junior@adonisautodetailing.com'>junior@adonisautodetailing.com</a> and I will try to answer you as soon as possible.</h6>
            </div>
         </div>
     )

@@ -28,7 +28,7 @@ export default function HeadlightRestoration() {
                    </p>
                     <p>Have you noticed that that your headlight are starting to look hazy, foggy and gives you a hard time when driving on the road? Are you considering replacing them but are also looking to other alternatives?</p>
                     <p>You’ve come to the right spot then. We can restore your headlights by removing oxidation from your headlights. The oxidation comes from the clear coat wearing and tearing and that’s why it looks yellowish, so that’s why we have to sand and polish them. </p>
-                    <p>Why don’t you consider our premier car wash or a Complete Detail services to go along with this service?</p>
+                    <p>Why don’t you consider our <a href='premier-wash'>premier car wash</a> or a <a href='complete-detail'>Complete Detail</a> services to go along with this service?</p>
                </div>
                <img className='car__servicepage__img' src={headlightrestorationimg} alt='wash-wax-car'/>
            </div>
@@ -57,7 +57,7 @@ export default function HeadlightRestoration() {
                             <h3>2 doors (sports car)</h3>
                         </div>
                         <div className="service__price">
-                            <span>$120-$?</span>
+                            <h1>$120+</h1>
                         </div>
                     </div>
                     <div className="pricing__card">
@@ -65,7 +65,7 @@ export default function HeadlightRestoration() {
                             <h4>4 doors (regular sedan)</h4>
                         </div>
                         <div className="service__price">
-                            <span>$120-$?</span>
+                            <h1>$120+</h1>
                         </div>
                     </div>
                     <div className="pricing__card">
@@ -73,7 +73,7 @@ export default function HeadlightRestoration() {
                             <h4>Mid-size Sedan</h4>
                         </div>
                         <div className="service__price">
-                            <span>$120-$?</span>
+                            <h1>$120+</h1>
                         </div>
                     </div>
                     <div className="pricing__card">
@@ -81,7 +81,7 @@ export default function HeadlightRestoration() {
                             <h4>SUV or Van</h4>
                         </div>
                         <div className="service__price">
-                            <span>$120-$?</span>
+                            <h1>$120+</h1>
                         </div>
                     </div>
                </div>
@@ -106,7 +106,7 @@ export default function HeadlightRestoration() {
                         <h5>This all falls under what’s the current condition. If it’s in a really bad state we could definitely improve it but making it look new would be a hard feat.</h5>
                     </div>
                </div>
-               <h6>You can visit our dedicated FAQ PAGE to find the answers that you are looking for. And if you can’t find the answer, you can always contact me, Junior@adonisautodetailing.com and I will try to answer you as soon as possible.</h6>
+               <h6>You can visit our dedicated FAQ PAGE to find the answers that you are looking for. And if you can’t find the answer, you can always contact me, <a className='link' href='mailto:junior@adonisautodetailing.com'>junior@adonisautodetailing.com</a> and I will try to answer you as soon as possible.</h6>
            </div>
         </div>
     )

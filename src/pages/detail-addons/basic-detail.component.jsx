@@ -35,7 +35,7 @@ export default function BasicDetail() {
                         service is affordable and does not take too much time.
                     </p>
                     <p>
-                        Ask us about the Headlight Restoration or the Adonis Car Wash and Wax services. Those
+                        Ask us about the <a href='headlight-restoration'>Headlight Restoration</a> or the <a href='adonis-wash-and-wax'>Adonis Car Wash and Wax</a> services. Those
                         services may go hand in hand with what you’re looking for your vehicle.
                     </p>
                </div>
@@ -65,7 +65,7 @@ export default function BasicDetail() {
                             <h3>2 doors (sports car)</h3>
                         </div>
                         <div className="service__price">
-                            <span>$100</span>
+                            <h1>$100</h1>
                         </div>
                     </div>
                     <div className="pricing__card">
@@ -73,7 +73,7 @@ export default function BasicDetail() {
                             <h4>4 doors (regular sedan)</h4>
                         </div>
                         <div className="service__price">
-                            <span>$125</span>
+                            <h1>$125</h1>
                         </div>
                     </div>
                     <div className="pricing__card">
@@ -81,7 +81,7 @@ export default function BasicDetail() {
                             <h4>Mid-size Sedan</h4>
                         </div>
                         <div className="service__price">
-                            <span>$150</span>
+                            <h1>$150</h1>
                         </div>
                     </div>
                     <div className="pricing__card">
@@ -89,7 +89,7 @@ export default function BasicDetail() {
                             <h4>SUV or Van</h4>
                         </div>
                         <div className="service__price">
-                            <span>$175</span>
+                            <h1>$175</h1>
                         </div>
                     </div>
                </div>
@@ -118,7 +118,7 @@ export default function BasicDetail() {
                         <h5>The basic cleaning is a light wipe down of the vehicle but at an extra charge we can take care of this issue. Please let us know when scheduling to make the proper arrangements.</h5>
                     </div>
                </div>
-               <h6>You can visit our dedicated FAQ PAGE to find the answers that you are looking for. And if you can’t find the answer, you can always contact me, Junior@adonisautodetailing.com and I will try to answer you as soon as possible.</h6>
+               <h6>You can visit our dedicated FAQ PAGE to find the answers that you are looking for. And if you can’t find the answer, you can always contact me, <a className='link' href='mailto:junior@adonisautodetailing.com'>junior@adonisautodetailing.com</a> and I will try to answer you as soon as possible.</h6>
            </div>
         </div>
     )

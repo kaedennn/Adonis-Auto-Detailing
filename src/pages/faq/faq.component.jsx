@@ -39,7 +39,7 @@ export default function FAQ() {
                         <h5>It all depends on what type of detail service you choose. If you choose a deep detailing from 4 to 8 hours, or the  Adonis car wash & clay bar detail, 2 to 4 hours. If you decide to combine both of the services, it should take around 6 to 10 hours to detail both the interior and exterior. We should tell you once we receive the car.</h5>
                     </div>
                 </div>
-                <h1 className='bold underline'>Ceramic Coating FAQ</h1>
+                <a className='black' href='ceramic-coating'><h1 className='bold underline'>Ceramic Coating FAQ</h1></a>
                 <div className="questions__container">
                     <div className="question">
                         <h3>How long do I have to wait to be able to wash my car?</h3>
@@ -54,7 +54,7 @@ export default function FAQ() {
                         <h5>For now we offer 1 year and 3 to 5 year ceramic coatings.</h5>
                     </div>
                 </div>
-                <h1 className='bold underline'>Paint Enhancement FAQ</h1>
+                <a className='black' href='paint-enhancement'><h1 className='bold underline'>Paint Enhancement FAQ</h1></a>
                 <div className="questions__container">
                     <div className="question">
                         <h3>How long does this service last?</h3>
@@ -65,7 +65,7 @@ export default function FAQ() {
                         <h5>It all depends how well you take care of your car, and how often you wash the car on a consistent basis. If you take it to the car wash often, you’ll see the difference right away.</h5>
                     </div>
                 </div>
-                <h1 className='bold underline'>Basic Interior Detail FAQ</h1>
+                <a className='black' href='basic-detail'><h1 className='bold underline'>Basic Interior Detail FAQ</h1></a>
                 <div className="questions__container">
                     <div className="question">
                         <h3>This stain is really bothering me, can you take care of that for me? </h3>
@@ -80,7 +80,7 @@ export default function FAQ() {
                         <h5>This service is usually for Deep Cleaning Detail. If you need to more information, visit the page. The Basic Interior Detail is usually for cars that are well kept or new and doesn’t need a lot of attention.</h5>
                     </div>
                 </div>
-                <h1 className='bold underline'>Deep Interior Detail FAQ</h1>
+                <a className='black' href='deep-interior-detail'><h1 className='bold underline'>Deep Interior Detail FAQ</h1></a>
                 <div className="questions__container">
                 <div className="question">
                         <h3>Deep Interior Detail</h3>
@@ -107,7 +107,7 @@ export default function FAQ() {
                         <h5>We currently use Super Clean to clean the interior and we dilute it 10 to 1, to minimize the potency of the product, and to dress and protect the vehicle we use Meguires Hyper Dressing. None of these products we use has damaged any of the other vehicles we serviced in the past. They are not harsh chemicals and don’t leave any lingering smell.</h5>
                     </div>
                 </div>
-                <h1 className="bold underline">Smoke Oder Removal FAQ</h1>
+                <a className='black' href='smoke-removal'><h1 className="bold underline">Smoke Odor Removal FAQ</h1></a>
                 <div className="questions__container">
                     <div className="question">
                         <h3>What products do you use?</h3>
@@ -122,7 +122,7 @@ export default function FAQ() {
                         <h5>This all depends on the state of the car and how often it was smoked in or how old it is. We can help eliminate most of the odor.</h5>
                     </div>
                 </div>
-                <h1 className='bold underline'>Premier Car Wash FAQ</h1>
+                <a className='black' href='premier-wash'><h1 className='bold underline'>Premier Car Wash FAQ</h1></a>
                 <div className="questions__container">
                     <div className="question">
                         <h3>What is traffic film?</h3>
@@ -141,7 +141,7 @@ export default function FAQ() {
                         <h5>Removing scratches implies a whole other set of skills and time. Ask us about our scratch removal services.</h5>
                     </div>
                 </div>
-                <h1 className='bold underline'>Headlight Restoration FAQ</h1>
+                <a className='black' href='headlight-restoration'><h1 className='bold underline'>Headlight Restoration FAQ</h1></a>
                 <div className="questions__container">
                     <div className="question">
                         <h3>How long does this usually take?</h3>
@@ -156,7 +156,7 @@ export default function FAQ() {
                         <h5>This all falls under what’s the current condition. If it’s in a really bad state we could definitely improve it but making it look new would be a hard feat.</h5>
                     </div>
                 </div>
-                <h1 className='bold underline'>Adonis Car Wash And Wax FAQ</h1>
+                <a className='black' href='adonis-wash-and-wax'><h1 className='bold underline'>Adonis Car Wash And Wax FAQ</h1></a>
                 <div className="questions__container">
                     <div className="question">
                         <h3>How long does this take?</h3>
@@ -179,7 +179,7 @@ export default function FAQ() {
                         <h5>It’s an engineered clay compound that helps remove the very tiny particles that we can’t see with our eyes. If you wash your car anywhere, and after it’s all said and done, touch your paint. You will feel bumpiness or roughness, that’s all particle buildup. The clay bar removes all of that, and makes your vehicle smooth and we are able to apply the wax after that to give it protection and shine. </h5>
                     </div>
                 </div>
-                <h1 className='bold underline'>Engine Bay Cleaning FAQ</h1>
+                <a className='black' href='engine-bay'><h1 className='bold underline'>Engine Bay Cleaning FAQ</h1></a>
                 <div className="questions__container">
                     <div className="question">
                         <h3>How long does this usually last?</h3>

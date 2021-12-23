@@ -33,7 +33,7 @@ export default function CeramicCoating() {
            <div className="our__process">
                <h1 className='bold'>So how does it work?</h1>
                 <div className="steps2">
-                    <p>In order to get the best possible outcome, we need to fully decontaminate the exterior of the car. We use the same methods as in the Adonis Wash and Wax and we would recommend polishing to get the best possible results. </p>
+                    <p>In order to get the best possible outcome, we need to fully decontaminate the exterior of the car. We use the same methods as in the <a href='adonis-wash-and-wax'>Adonis Wash and Wax</a> and we would recommend polishing to get the best possible results. </p>
                     <p>After that we apply the ceramic coating and let it cure for optimum results. By curing, we want to let it sit in an enclosed place where no contaminants are affecting the process.</p>
                     <p>It’s designed to protect it from anything that touches the paint such as traffic film, salt, pollen, rain, bugs, bird droppings, surface and light scratches etc. We all know the kind of crazy weather we have in Queens, so this is a big plus for your car’s paint.</p>
                     <p>Another benefit is that it’s hydrophobic on all of the surfaces, and it makes it easier to clean and wash.</p>
@@ -58,7 +58,7 @@ export default function CeramicCoating() {
                             <h3>2 doors (sports car)</h3>
                         </div>
                         <div className="service__price">
-                            <span>$300-400</span>
+                            <h1>$300-$400</h1>
                         </div>
                     </div>
                     <div className="pricing__card">
@@ -66,7 +66,7 @@ export default function CeramicCoating() {
                             <h4>4 doors (regular sedan)</h4>
                         </div>
                         <div className="service__price">
-                            <span>$350-450</span>
+                            <h1>$350-$450</h1>
                         </div>
                     </div>
                     <div className="pricing__card">
@@ -74,7 +74,7 @@ export default function CeramicCoating() {
                             <h4>Mid-size Sedan</h4>
                         </div>
                         <div className="service__price">
-                            <span>$400-500</span>
+                            <h1>$400-$500</h1>
                         </div>
                     </div>
                     <div className="pricing__card">
@@ -82,7 +82,7 @@ export default function CeramicCoating() {
                             <h4>SUV or Van</h4>
                         </div>
                         <div className="service__price">
-                            <span>$450-550</span>
+                            <h1>$450-$550</h1>
                         </div>
                     </div>
                </div>
@@ -107,7 +107,7 @@ export default function CeramicCoating() {
                         <h5>For now we offer 1 year and 3 to 5 year ceramic coatings.</h5>
                     </div>
                </div>
-               <h6>You can visit our dedicated FAQ PAGE to find the answers that you are looking for. And if you can’t find the answer, you can always contact me, Junior@adonisautodetailing.com and I will try to answer you as soon as possible.</h6>
+               <h6>You can visit our dedicated FAQ PAGE to find the answers that you are looking for. And if you can’t find the answer, you can always contact me, <a className='link' href='mailto:junior@adonisautodetailing.com'>junior@adonisautodetailing.com</a> and I will try to answer you as soon as possible.</h6>
            </div>
         </div>
     )

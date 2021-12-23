@@ -22,7 +22,7 @@ export default function MobileDetailing() {
                     <h1>Mobile Detailing Information</h1>
                     <p>We want your experience with us to be convenient and get to detail your car as soon as possible.</p>
                     <p>And by convenient we mean that we have a few options that we can offer when it comes being Mobile.</p>
-                    <p>Our Mobile Services are for those interested in a Complete Detail and none of the ADD-ON’s will be serviced alone. Or for let’s say you need a Deep Interior Detail, you can combine with a Headlight Restoration. </p>
+                    <p>Our Mobile Services are for those interested in a <a href='complete-detail'>Complete Detail</a> and none of the ADD-ON’s will be serviced alone. Or for let’s say you need a <a href='deep-interior-detail'>Deep Interior Detail</a>, you can combine with a <a href='headlight-restoration'>Headlight Restoration</a>. </p>
                     <p>If we are coming to you, we do ask for us to have access to electricity and water. We come prepared with a hose and electrical cords, so no need to be worried about that. </p>
                     <p>With that being said, we are fully aware that we live in Queens, we’re part of big city. A lot of us live in buildings and parking is hard to find parking close to the building, much less to electricity and water.</p>
                     <p>We are mainly a shop based, so we want to let you know we can come to you to pick up your car, work it on our shop and return it to you once we are done. All at your convenience, that way you don’t have to deal taking mass transportation, or an Uber or Lyft and being stuck in traffic</p>
@@ -77,7 +77,7 @@ export default function MobileDetailing() {
                 </div>
             </div>
             <div className="google__map">
-                <iframe className='google-map' title='flushing-map' width="1080" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=Flushing%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                <iframe className='google-map' title='queens-google-map' width="1080" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=Queens,%20New%20York&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
             </div>
         </div>
     )

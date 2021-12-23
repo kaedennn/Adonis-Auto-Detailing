@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 import './homepage.styles.css';
 
@@ -13,7 +14,7 @@ export default function Homepage() {
         <div className='homepage__container'>
            <div className='homepage__top'>
                <div className='overlay'/>
-               <h1 className='homepage__top__text bold'>Dedicated and Thorough Auto Detailing</h1>
+               <h1 className='homepage__top__text bold'>Dedicated and Thorough Auto Detailing in Queens, NY</h1>
                <h2 className='homepage__top__text'>With over 75+ five star reviews from our customers.</h2>
            </div>
            <div className='homepage__middle'>
@@ -38,8 +39,8 @@ export default function Homepage() {
                 </p>
                 <p>
                     You can book an appointment with us at any time, choose the day and time and express your
-                    concerns. You can always call and text at (347)861-8315, or if your busy email us,
-                    Junior@adonisautodetailing.com. We will answer as soon as we can and get the process going.
+                    concerns. You can always call and text at <a className='white' href='tel:3478618315'>(347)861-8315</a>, or if your busy email us,
+                    <a className='white' href='mailto:junior@adonisautodetailing.com'> Junior@adonisautodetailing.com</a>. We will answer as soon as we can and get the process going.
                     Once we set up the appointment, the day of your detailing, we will go over with you our
                     process and at the same time you can point out any concerns.
                 </p>
@@ -85,6 +86,7 @@ export default function Homepage() {
                             super communicative and friendly. Great work and
                             a great experience!
                         </p>
+                        <Link className='reviews__button' to='testimonials'>Read More</Link>
                     </div>
                     <div className='reviews__container'>
                         <h2 className='name'>Andy K</h2>
@@ -127,6 +129,7 @@ export default function Homepage() {
                             a great guy too. Give him a call to inquire. You
                             definitely won't be disappointed.
                         </p>
+                        <Link className='reviews__button' to='testimonials'>Read More</Link>
                     </div>
                     <div className='reviews__container'>
                         <h2 className='name'>Solar H</h2>
@@ -158,6 +161,7 @@ export default function Homepage() {
                             place, nice guy- highly recommend getting your car
                             serviced with Adonis!
                         </p>
+                        <Link className='reviews__button' to='testimonials'>Read More</Link>
                     </div>
                 </div>
            </div>

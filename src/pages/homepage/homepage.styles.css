@@ -86,6 +86,13 @@
     margin: 4% 4% 8% 4%;
 }
 
+.reviews__button {
+    background-color: #c92d2d;
+    color: black;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
 .addons__title {
     display: flex;
     justify-content: center;

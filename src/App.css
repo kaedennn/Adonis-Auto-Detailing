@@ -12,6 +12,11 @@ a {
     color: white;
 }
 
+.white {
+    color: white;
+    text-decoration: underline;
+}
+
 .bold {
     font-weight: bold;
 }

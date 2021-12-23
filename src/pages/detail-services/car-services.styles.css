@@ -83,6 +83,7 @@
 }
 
 .appointment {
+    color: black;
     border: none;
     background-color: darkgray;
     padding: 20px 60px 20px 60px;
@@ -124,4 +125,19 @@
     align-items: center;
     font-size: 400vw !important;
     padding: 15px;
+}
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    color: red;
+}
+
+.link:hover {
+    color: red;
 }

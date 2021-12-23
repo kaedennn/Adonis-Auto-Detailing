@@ -69,7 +69,7 @@ export default function WashAndWax() {
                             <h3>2 doors (sports car)</h3>
                         </div>
                         <div className="service__price">
-                            <span>$100</span>
+                            <h1>$100</h1>
                         </div>
                     </div>
                     <div className="pricing__card">
@@ -77,7 +77,7 @@ export default function WashAndWax() {
                             <h4>4 doors (regular sedan)</h4>
                         </div>
                         <div className="service__price">
-                            <span>$135</span>
+                            <h1>$135</h1>
                         </div>
                     </div>
                     <div className="pricing__card">
@@ -85,7 +85,7 @@ export default function WashAndWax() {
                             <h4>Mid-size Sedan</h4>
                         </div>
                         <div className="service__price">
-                            <span>$170</span>
+                            <h1>$170</h1>
                         </div>
                     </div>
                     <div className="pricing__card">
@@ -93,7 +93,7 @@ export default function WashAndWax() {
                             <h4>SUV or Van</h4>
                         </div>
                         <div className="service__price">
-                            <span>$200</span>
+                            <h1>$200</h1>
                         </div>
                     </div>
                </div>
@@ -126,7 +126,7 @@ export default function WashAndWax() {
                         <h5>This should last around 3 to 6 months, depending on the daily use of your car. Keep in mind factors such as leaving the car in the sun or rain, different chemicals will get on it and slowly eat the protection off the paint.</h5>
                     </div>
                </div>
-               <h6>You can visit our dedicated FAQ PAGE to find the answers that you are looking for. And if you can’t find the answer, you can always contact me, Junior@adonisautodetailing.com and I will try to answer you as soon as possible.</h6>
+               <h6>You can visit our dedicated FAQ PAGE to find the answers that you are looking for. And if you can’t find the answer, you can always contact me, <a className='link' href='mailto:junior@adonisautodetailing.com'>junior@adonisautodetailing.com</a> and I will try to answer you as soon as possible.</h6>
            </div>
         </div>
     )

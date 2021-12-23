@@ -37,8 +37,8 @@ export default function PremierWash() {
                     </p>
                     <p>
                         What we offer here is the Premier Car Wash; we’re looking to provide you with high quality service and results!
-                        We also offer Deep Interior Detail to go along with this service or if you want, you can upgrade your wash to the
-                        Adonis Car Wash
+                        We also offer <a href='deep-interior-detail'>Deep Interior Detail</a> to go along with this service or if you want, you can upgrade your wash to the
+                        <a href='adonis-wash-and-wax'> Adonis Car Wash And Wax</a>
                     </p>
                     <p>
                         We will hand wash and remove all the traffic film that has been accumulating on your vehicle. When a car is
@@ -75,7 +75,7 @@ export default function PremierWash() {
                             <h3>2 doors (sports car)</h3>
                         </div>
                         <div className="service__price">
-                            <span>$40</span>
+                            <h1>$60</h1>
                         </div>
                     </div>
                     <div className="pricing__card">
@@ -83,7 +83,7 @@ export default function PremierWash() {
                             <h4>4 doors (regular sedan)</h4>
                         </div>
                         <div className="service__price">
-                            <span>$55</span>
+                            <h1>$75</h1>
                         </div>
                     </div>
                     <div className="pricing__card">
@@ -91,7 +91,7 @@ export default function PremierWash() {
                             <h4>Mid-size Sedan</h4>
                         </div>
                         <div className="service__price">
-                            <span>$70</span>
+                            <h1>$90</h1>
                         </div>
                     </div>
                     <div className="pricing__card">
@@ -99,7 +99,7 @@ export default function PremierWash() {
                             <h4>SUV or Van</h4>
                         </div>
                         <div className="service__price">
-                            <span>$85</span>
+                            <h1>$105</h1>
                         </div>
                     </div>
                </div>
@@ -130,7 +130,7 @@ export default function PremierWash() {
                         <h5>Yes, look at our scratch removal services for more info.</h5>
                     </div>
                </div>
-               <h6>You can visit our dedicated FAQ PAGE to find the answers that you are looking for. And if you can’t find the answer, you can always contact me, Junior@adonisautodetailing.com and I will try to answer you as soon as possible.</h6>
+               <h6>You can visit our dedicated FAQ PAGE to find the answers that you are looking for. And if you can’t find the answer, you can always contact me, <a className='link' href='mailto:junior@adonisautodetailing.com'>junior@adonisautodetailing.com</a> and I will try to answer you as soon as possible.</h6>
            </div>
         </div>
     )

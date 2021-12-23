@@ -20,7 +20,7 @@ export default function Flushing() {
                 <div className='location__more__info'>
                     <h1>Flushing, NY</h1>
                     <p>Our shop is located in Flushing, Queens and we can help you with any of the services you are looking for, be it for the interior or the exterior of your car</p>
-                    <p>Most of our services take more than 4 hours, such as our <a href='smoke-removal'>Smoke Oder Removal</a> or <a href='ceramic-coating'>Ceramic Coatings</a> Service</p>
+                    <p>Most of our services take more than 4 hours, such as our <a href='smoke-removal'>Smoke Odor Removal</a> or <a href='ceramic-coating'>Ceramic Coatings</a> Service</p>
                     <p>The good thing about us being located in Flushing, Queens is that there are a bunch of stuff you can do if you want to wait around.</p>
                 </div>
                 <div className="location__more__info2">

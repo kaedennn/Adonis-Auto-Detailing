@@ -38,7 +38,7 @@ export default function OderRemoval() {
                         Yes, we totally understand that you live Queens and you have a busy life and are unable to leave the windows open for obvious reasons. So this is where we can help you out.
                     </p>
                     <p>
-                        Have in mind every car’s situation is different and the process and prices varies from car to car. For instance if you have a car with a smoke odor situation, we recommend our smoke odor removal.
+                        Have in mind every car’s situation is different and the process and prices varies from car to car. For instance if you have a car with a smoke odor situation, we recommend our <a href='smoke-removal'>smoke odor removal</a>.
                     </p>
                </div>
                <img className='car__servicepage__img' src={oderremovalimg} alt='wash-wax-car'/>
@@ -58,7 +58,7 @@ export default function OderRemoval() {
                     </ol>
                 </div>
                 <p className='bold'>Please have in mind that most likely we’re going to need your car possibly more than a day</p>
-                <p>First of all, once you bring the car to us we’ll asses with you the problem that your car is having. You’re going to need our Deep Interior Detail and the price will be determined by size and condition of car. </p>
+                <p>First of all, once you bring the car to us we’ll asses with you the problem that your car is having. You’re going to need our <a href='deep-interior-detail'>Deep Interior Detail</a> and the price will be determined by size and condition of car. </p>
                 <p>And the reason why you need that service is because there is no point of using the ozone generator if the car is not clean. It defeats the purpose and the smell might linger. </p>
                 <p>Let’s say for instance if your car got flooded or has leak somewhere, depending on the severity, were going to have to extract your car. We will have to price accordingly just for extracting, for severe cases anywhere from $50 and up.</p>
                 <p>If your car has mold/mildew already and the state of the car is bad your car need to be presoaked with disinfectant, we will have to determine and price accordingly.</p>
@@ -66,7 +66,7 @@ export default function OderRemoval() {
                 <p>Once were done cleaning your car, we’ll inspect the affected areas, if the carpets and seats are saturated we’re going to dry them as best as possible. We have an air blower and leave the doors of your car open to let the sun help expedite the drying process. Please have in mind the weather is a big factor, especially in the winter time.</p>
                 <p>Once the carpets and seats are fully dried, then we put the ozone generator in the car.  Depending on how strong the odor is, we run the machine for an hour or so. After that the machine turns off and we let it sit for an hour closed and then we open the car and let it air out.</p>
                 <p>We do one final inspection, quick vacuum and let you know once your car is ready.</p>
-                <p className="bold">Look into our Adonis Wash and Wax Service if you need your exterior done as well. </p>
+                <p className="bold">Look into our <a href='adonis-wash-and-wax'>Adonis Wash and Wax</a> Service if you need your exterior done as well. </p>
                 <p className="bold">This is the prices for an odor removal. It’s a deep interior Detail (depending on condition of car) plus ozone generator, which is $100. This price does not include extracting if the carpets are in severe condition. It’s usually $50+.</p>
            </div>
            <div className="pricing">
@@ -77,7 +77,7 @@ export default function OderRemoval() {
                             <h3>2 doors (sports car)</h3>
                         </div>
                         <div className="service__price">
-                            <span>$250-300</span>
+                            <h1>$250-$300</h1>
                         </div>
                     </div>
                     <div className="pricing__card">
@@ -85,7 +85,7 @@ export default function OderRemoval() {
                             <h4>4 doors (regular sedan)</h4>
                         </div>
                         <div className="service__price">
-                            <span>$300-400</span>
+                            <h1>$300-$400</h1>
                         </div>
                     </div>
                     <div className="pricing__card">
@@ -93,7 +93,7 @@ export default function OderRemoval() {
                             <h4>Mid-size Sedan</h4>
                         </div>
                         <div className="service__price">
-                            <span>$350-450</span>
+                            <h1>$350-$450</h1>
                         </div>
                     </div>
                     <div className="pricing__card">
@@ -101,7 +101,7 @@ export default function OderRemoval() {
                             <h4>SUV or Van</h4>
                         </div>
                         <div className="service__price">
-                            <span>$400-500</span>
+                            <h1>$400-$500</h1>
                         </div>
                     </div>
                </div>
@@ -128,7 +128,7 @@ export default function OderRemoval() {
                         <h5>We take the necessary steps to ensure that the odor goes away completely. Before contacting you, we thoroughly inspect the car to see if it’s up to our standards. </h5>
                     </div>
                </div>
-               <h6>You can visit our dedicated FAQ PAGE to find the answers that you are looking for. And if you can’t find the answer, you can always contact me, Junior@adonisautodetailing.com and I will try to answer you as soon as possible.</h6>
+               <h6>You can visit our dedicated FAQ PAGE to find the answers that you are looking for. And if you can’t find the answer, you can always contact me, <a className='link' href='mailto:junior@adonisautodetailing.com'>junior@adonisautodetailing.com</a> and I will try to answer you as soon as possible.</h6>
            </div>
         </div>
     )

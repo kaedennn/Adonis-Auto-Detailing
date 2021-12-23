@@ -40,7 +40,7 @@ export default function Footer() {
             </div>
             <div className='contact'>
                 <span className='title'>Contact</span>
-                <a href="tel:5554280940">347-861-8315</a>
+                <a href="tel:3478618315">347-861-8315</a>
                 <a href="mailto:junior@adonisautodetailing.com">junior@adonisautodetailing.com</a>
                 <a href='https://goo.gl/maps/SjzWsKLsX3CrKTNd7' rel='noopener noreferrer' target="_blank">
                     130-17 58th Ave, Flushing, NY 11355

@@ -35,13 +35,13 @@ export default function SmokeRemoval() {
                         So if it’s severe, we will be able to eliminate most of the odor but it may not be 100% and for that you may have to take the other drastic measures such as replacing some of the fabric in your car if you want 100% eliminated. 
                     </p>
                     <p>
-                        In order to make sure we do the best job possible we’re going to need keep your car about 2 or 3 days. It will be the Deep Interior Detail but twice than that because we’re going to have to go over heavily soiled areas due to tar and nicotine particles. 
+                        In order to make sure we do the best job possible we’re going to need keep your car about 2 or 3 days. It will be the <a href='deep-interior-detail'>Deep Interior Detail</a> but twice than that because we’re going to have to go over heavily soiled areas due to tar and nicotine particles. 
                     </p>
                     <p>
-                    We want to make sure the smell is completely gone so we have to make sure we take the necessary steps to get the best outcome as possible. 
+                        We want to make sure the smell is completely gone so we have to make sure we take the necessary steps to get the best outcome as possible. 
                     </p>
                     <p>
-                    While waiting for your car to be ready, why don’t you consider doing the Paint Enhancement or the Adonis Wash and Wax services? Also, after the service is done, we highly recommend not turning your ac and getting your cabin filter changed as soon as possible to avoid contaminating your vehicle again.
+                        While waiting for your car to be ready, why don’t you consider doing the <a href='paint-enhancement'>Paint Enhancement</a> or the <a href='adonis-wash-and-wax'>Adonis Wash and Wax</a> services? Also, after the service is done, we highly recommend not turning your ac and getting your cabin filter changed as soon as possible to avoid contaminating your vehicle again.
                     </p>
                </div>
                <img className='car__servicepage__img' src={smokeoderremoval} alt='wash-wax-car'/>
@@ -72,7 +72,7 @@ export default function SmokeRemoval() {
                             <h3>2 doors (sports car)</h3>
                         </div>
                         <div className="service__price">
-                            <span>$250-350</span>
+                            <h1>$250-$350</h1>
                         </div>
                     </div>
                     <div className="pricing__card">
@@ -80,7 +80,7 @@ export default function SmokeRemoval() {
                             <h4>4 doors (regular sedan)</h4>
                         </div>
                         <div className="service__price">
-                            <span>$300-400</span>
+                            <h1>$300-$400</h1>
                         </div>
                     </div>
                     <div className="pricing__card">
@@ -88,7 +88,7 @@ export default function SmokeRemoval() {
                             <h4>Mid-size Sedan</h4>
                         </div>
                         <div className="service__price">
-                            <span>$350-450</span>
+                            <h1>$350-$450</h1>
                         </div>
                     </div>
                     <div className="pricing__card">
@@ -96,7 +96,7 @@ export default function SmokeRemoval() {
                             <h4>SUV or Van</h4>
                         </div>
                         <div className="service__price">
-                            <span>$400-500</span>
+                            <h1>$400-$500</h1>
                         </div>
                     </div>
                </div>
@@ -123,7 +123,7 @@ export default function SmokeRemoval() {
                         <h5>This all depends on the state of the car and how often it was smoked in or how old it is. We can help eliminate most of the odor</h5>
                     </div>
                </div>
-               <h6>You can visit our dedicated FAQ PAGE to find the answers that you are looking for. And if you can’t find the answer, you can always contact me, Junior@adonisautodetailing.com and I will try to answer you as soon as possible.</h6>
+               <h6>You can visit our dedicated FAQ PAGE to find the answers that you are looking for. And if you can’t find the answer, you can always contact me, <a className='link' href='mailto:junior@adonisautodetailing.com'>junior@adonisautodetailing.com</a> and I will try to answer you as soon as possible.</h6>
            </div>
         </div>
     )
