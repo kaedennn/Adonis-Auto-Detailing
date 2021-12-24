@@ -142,10 +142,25 @@
     color: red;
 }
 
+.faq__link {
+    color: black;
+    font-size: 2.3vw;
+}
+
 @media screen and (max-width: 600px) {
     .link {
         font-size: 2vw;
         color: red;
+    }
+
+    .faq__link {
+        font-size: 4.7vw;
+    }
+}
+
+@media screen and (min-width: 750px) and (max-width: 900px) {
+    .faq__link {
+        font-size: 4.5vw;
     }
 }
 

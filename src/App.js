@@ -23,6 +23,7 @@ import Flushing from './pages/locations/flushing.component';
 import FAQ from './pages/faq/faq.component';
 import MobileDetailing from './pages/mobile-detailing/mobile-detailing.component';
 import Testimonials from './pages/testimonials/testimonials.component';
+import About from './pages/about/about.component';
 
 import './App.css';
 
@@ -42,7 +43,7 @@ function App() {
         <Route path='basic-detail' element={<BasicDetail/>}/>
         <Route path='engine-bay' element={<EngineBay/>}/>
         <Route path='headlight-restoration' element={<HeadlightRestoration/>}/>
-        <Route path='oder-removal' element={<OderRemoval/>}/>
+        <Route path='odor-removal' element={<OderRemoval/>}/>
         <Route path='smoke-removal' element={<SmokeRemoval/>}/>
         <Route path='ceramic-coating' element={<CeramicCoating/>}/>
         <Route path='queens' element={<Queens/>}/>
@@ -50,6 +51,7 @@ function App() {
         <Route path='faq' element={<FAQ/>}/>
         <Route path='mobile-detailing' element={<MobileDetailing/>}/>
         <Route path='testimonials' element={<Testimonials/>}/>
+        <Route path='about' element={<About/>}/>
       </Routes>
       <Footer/>
     </div>

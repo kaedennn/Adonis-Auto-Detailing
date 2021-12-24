@@ -11,7 +11,9 @@ export default function Navigation() {
         <div className='container-fluid'>
             <Navbar className='nav' bg="red" expand="lg" fixed="top" collapseOnSelect>
                 <Navbar.Brand>
-                    <img src={logo} height="30vw" alt='logo'/>
+                    <Nav.Link href='/'>
+                        <img src={logo} height="30vw" alt='logo'/>
+                    </Nav.Link>
                 </Navbar.Brand>
                 <Navbar.Toggle />
                 <Navbar.Collapse className='justify-content-end'>
@@ -26,6 +28,7 @@ export default function Navigation() {
                     <NavDropdown title='Exterior'>
                         <NavDropdown.Item href='adonis-wash-and-wax'>Adonis Car Wash and Wax</NavDropdown.Item>
                         <NavDropdown.Item href='paint-enhancement'>Paint Enhancement</NavDropdown.Item>
+                        <NavDropdown.Item href='ceramic-coating'>Ceramic Coating</NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown title="Add-ons">
                         <NavDropdown.Item href='basic-detail'>Basic Interior</NavDropdown.Item>
@@ -33,9 +36,8 @@ export default function Navigation() {
                         <NavDropdown.Item href='engine-bay'>Engine Bay Cleaning</NavDropdown.Item>
                         <NavDropdown.Item href='headlight-restoration'>Headlight Restoration</NavDropdown.Item>
                         {/* <NavDropdown.Item>Scratch Removal</NavDropdown.Item> */}
-                        <NavDropdown.Item href='oder-removal'>Odor Removal</NavDropdown.Item>
+                        <NavDropdown.Item href='odor-removal'>Odor Removal</NavDropdown.Item>
                         <NavDropdown.Item href='smoke-removal'>Smoke Odor Removal</NavDropdown.Item>
-                        <NavDropdown.Item href='ceramic-coating'>Ceramic Coating</NavDropdown.Item>
                     </NavDropdown>
                     <Nav.Link href='contact'>Contact us</Nav.Link>
                 </Nav>

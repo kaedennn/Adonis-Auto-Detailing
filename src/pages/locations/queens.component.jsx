@@ -44,9 +44,9 @@ export default function Queens() {
                 <div className="location__questions">
                     <div className="question">
                         <h3>What Services do you offer?</h3>
-                        <h5>Complete Detail - This is a combination of both the Deep Interior Detail and Premier Car Wash. This service is ideal for everyday drivers, or for cars that haven’t been cleaned in a long time.  A deep clean inside and outside will give your car fresh look.</h5>
-                        <h5>Paint Enhancements - Tired of seeing swirls marks, small scratches or the paint of your car is dulling? Let’s get your car’s vehicle paint, new life again!</h5>
-                        <h5>Deep Interior Detail - Now the deep interior detail is for those that use the car on an everyday basis, or have children and spills happen, or you bought this car from the previous owner who didn’t take care of the vehicle, etc. A protective dressing will be put on all plastic surfaces, giving it an amazing look in the inside and feeling fresh once you step inside your car.</h5>
+                        <h5><a href='complete-detail'>Complete Detail</a> - This is a combination of both the Deep Interior Detail and Premier Car Wash. This service is ideal for everyday drivers, or for cars that haven’t been cleaned in a long time.  A deep clean inside and outside will give your car fresh look.</h5>
+                        <h5><a href='paint-enhancement'>Paint Enhancements</a> - Tired of seeing swirls marks, small scratches or the paint of your car is dulling? Let’s get your car’s vehicle paint, new life again!</h5>
+                        <h5><a href='deep-interior-detail'>Deep Interior Detail</a> - Now the deep interior detail is for those that use the car on an everyday basis, or have children and spills happen, or you bought this car from the previous owner who didn’t take care of the vehicle, etc. A protective dressing will be put on all plastic surfaces, giving it an amazing look in the inside and feeling fresh once you step inside your car.</h5>
                     </div>
                     <div className="question">
                         <h3>Where are you Currently Located?</h3>

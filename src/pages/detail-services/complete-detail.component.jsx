@@ -37,7 +37,7 @@ export default function CompleteDetail() {
                         And what is part of the complete detail?
                     </p>
                     <p>
-                        It’s both the <a href='deep-interior-detail'>Deep Interior Detail</a> and <a href='adonis-wash-and-wax'>Adonis Wash and Wax</a> combined together. Should you want, consider getting an engine bay cleaning.
+                        It’s both the <a href='deep-interior-detail'>Deep Interior Detail</a> and <a href='adonis-wash-and-wax'>Adonis Wash and Wax</a> combined together. Should you want, consider getting an <a href='engine-bay'>engine bay cleaning</a>.
                     </p>
                     <p>
                         Have in mind; the complete detail service is not the same as what many of the other local car wash provides.
@@ -90,7 +90,7 @@ export default function CompleteDetail() {
                             <h3>2 doors (sports car)</h3>
                         </div>
                         <div className="service__price">
-                            <h1>$250-350</h1>
+                            <h1>$250-$350</h1>
                         </div>
                     </div>
                     <div className="pricing__card">
@@ -98,7 +98,7 @@ export default function CompleteDetail() {
                             <h4>4 doors (regular sedan)</h4>
                         </div>
                         <div className="service__price">
-                            <h1>$350-450</h1>
+                            <h1>$350-$450</h1>
                         </div>
                     </div>
                     <div className="pricing__card">
@@ -106,7 +106,7 @@ export default function CompleteDetail() {
                             <h4>Mid-size Sedan</h4>
                         </div>
                         <div className="service__price">
-                            <h1>$420-520</h1>
+                            <h1>$420-$520</h1>
                         </div>
                     </div>
                     <div className="pricing__card">
@@ -114,7 +114,7 @@ export default function CompleteDetail() {
                             <h4>SUV or Van</h4>
                         </div>
                         <div className="service__price">
-                            <h1>$500-600</h1>
+                            <h1>$500-$600</h1>
                         </div>
                     </div>
                </div>
@@ -123,7 +123,7 @@ export default function CompleteDetail() {
                </Link>
            </div>
            <div className="faq">
-               <h1 className='bold underline'>FAQ</h1>
+               <h1 className='bold underline'><a className='faq__link' href='faq'>FAQ</a></h1>
                <h4>Find the answers for the most frequently asked questions below</h4>
                <div className="questions__container">
                     <div className="question">
@@ -138,7 +138,7 @@ export default function CompleteDetail() {
                     </div>
                     <div className="question">
                         <h3>I’ve tried everything to remove the smell from my car, are you able to remove it?</h3>
-                        <h5>Check out our Odor Removal Service.</h5>
+                        <h5>Check out our <a href='odor-removal'>Odor Removal</a> Service.</h5>
                     </div>
                     <div className="question">
                         <h3>One of the seats is damaged, are you able to fix it?</h3>

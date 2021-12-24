@@ -28,7 +28,7 @@ export default function Flushing() {
                     <ul>
                         <li><a href='https://www.nycgovparks.org/parks/flushing-meadows-corona-park'>Flushing Meadows Corona Park</a></li>
                         <li><a href='https://queensmuseum.org/'>Queens Museum</a></li>
-                        <li><a href='https://www.mlb.com/mets/ballpark'>MLB Ballpark</a></li>
+                        <li><a href='https://www.mlb.com/mets/ballpark'>City Field</a></li>
                         <li><a href='https://queensbotanical.org/'>Queens Botanical Garden</a></li>
                         <li><a href='https://theshopsatskyviewny.com/ '>Skyview Shopping Center</a></li>
                     </ul>

@@ -35,7 +35,7 @@ export default function WashAndWax() {
                     </p>
                     <p>
                         Our Wash and Wax is a great choice to help hide those imperfections but If you want to remove them or improve
-                        the quality of the paint, then you should definitely look into our Paint Enhancement service.
+                        the quality of the paint, then you should definitely look into our <a href='paint-enhancement'>Paint Enhancement</a> service.
                     </p>
                     <p>
                         If you want the protection for your vehicle, then this is a great choice for you! You will be able to notice right away
@@ -43,7 +43,7 @@ export default function WashAndWax() {
                     </p>
                     <p>
                         This service does not take very much time to do and you will leave happy with the results.
-                        If you need your interior done, look into our Deep Interior
+                        If you need your interior done, look into our <a href='deep-interior-detail'>Deep Interior Detail</a>
                     </p>
                </div>
                <img className='car__servicepage__img' src={washandwaxcar} alt='wash-wax-car'/>
@@ -69,7 +69,7 @@ export default function WashAndWax() {
                             <h3>2 doors (sports car)</h3>
                         </div>
                         <div className="service__price">
-                            <h1>$100</h1>
+                            <h1>$115</h1>
                         </div>
                     </div>
                     <div className="pricing__card">
@@ -77,7 +77,7 @@ export default function WashAndWax() {
                             <h4>4 doors (regular sedan)</h4>
                         </div>
                         <div className="service__price">
-                            <h1>$135</h1>
+                            <h1>$150</h1>
                         </div>
                     </div>
                     <div className="pricing__card">
@@ -85,7 +85,7 @@ export default function WashAndWax() {
                             <h4>Mid-size Sedan</h4>
                         </div>
                         <div className="service__price">
-                            <h1>$170</h1>
+                            <h1>$185</h1>
                         </div>
                     </div>
                     <div className="pricing__card">
@@ -93,7 +93,7 @@ export default function WashAndWax() {
                             <h4>SUV or Van</h4>
                         </div>
                         <div className="service__price">
-                            <h1>$200</h1>
+                            <h1>$215</h1>
                         </div>
                     </div>
                </div>
@@ -102,7 +102,7 @@ export default function WashAndWax() {
                </Link>
            </div>
            <div className="faq">
-               <h1 className='bold underline'>FAQ</h1>
+               <h1 className='bold underline'><a className='faq__link' href='faq'>FAQ</a></h1>
                <h4>Find the answers for the most frequently asked questions below</h4>
                <div className="questions__container">
                     <div className="question">

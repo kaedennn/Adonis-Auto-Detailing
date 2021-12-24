@@ -20,17 +20,17 @@ export default function Footer() {
                 <span className='title'>Add-ons</span>
                 <Link to='basic-detail'>Basic Interior Detailing</Link>
                 <Link to='engine-bay'>Engine Bay Cleaning</Link>
-                <Link to='oder-removal'>Oder Removal</Link>
+                <Link to='oder-removal'>Odor Removal</Link>
                 <Link to='premier-wash'>Premier Car Wash</Link>
                 <Link to='headlight-restoration'>Headlight Restoration</Link>
-                <Link to='smoke-removal'>Smoke Oder Removal</Link>
-                <Link to='ceramic-coating'>Ceramic Coating</Link>
+                <Link to='smoke-removal'>Smoke Odor Removal</Link>
             </div>
             <div className='company'>
                 <span className='title'>Company</span>
                 <Link to='gallery'>Gallery</Link>
                 <Link to='testimonials'>Customer Reviews</Link>
                 <Link to='faq'>FAQ(s)</Link>
+                <Link to='about'>About us</Link>
             </div>
             <div className='servicearea'>
                 <span className='title'>Service Area</span>

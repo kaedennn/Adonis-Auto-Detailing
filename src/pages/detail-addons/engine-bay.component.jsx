@@ -72,7 +72,7 @@ export default function EngineBay() {
                </Link>
            </div>
            <div className="faq">
-               <h1 className='bold underline'>FAQ</h1>
+               <h1 className='bold underline'><a className='faq__link' href='faq'>FAQ</a></h1>
                <h4>Find the answers for the most frequently asked questions below</h4>
                <div className="questions__container">
                     <div className="question">

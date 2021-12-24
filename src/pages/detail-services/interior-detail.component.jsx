@@ -31,8 +31,8 @@ export default function DeepInteriorDetail() {
                         cleaned.
                     </p>
                     <p>
-                        While you’re at it, why don’t you upgrade it to a Complete Detailing? Or if you want your car’s paint nice
-                        and save, try the Paint Enhancement.
+                        While you’re at it, why don’t you upgrade it to a <a href='complete-detail'>Complete Detailing</a>? Or if you want your car’s paint nice
+                        and save, try the <a href='paint-enhancement'>Paint Enhancement</a>.
                     </p>
                     <p>
                         Both seats and carpet will be shampooed and you can rest assure if you have any light stains on either
@@ -73,7 +73,7 @@ export default function DeepInteriorDetail() {
                             <h3>2 doors (sports car)</h3>
                         </div>
                         <div className="service__price">
-                            <h1>$150</h1>
+                            <h1>$150+</h1>
                         </div>
                     </div>
                     <div className="pricing__card">
@@ -81,7 +81,7 @@ export default function DeepInteriorDetail() {
                             <h4>4 doors (regular sedan)</h4>
                         </div>
                         <div className="service__price">
-                            <h1>$200</h1>
+                            <h1>$200+</h1>
                         </div>
                     </div>
                     <div className="pricing__card">
@@ -89,7 +89,7 @@ export default function DeepInteriorDetail() {
                             <h4>Mid-size Sedan</h4>
                         </div>
                         <div className="service__price">
-                            <h1>$250</h1>
+                            <h1>$250+</h1>
                         </div>
                     </div>
                     <div className="pricing__card">
@@ -97,7 +97,7 @@ export default function DeepInteriorDetail() {
                             <h4>SUV or Van</h4>
                         </div>
                         <div className="service__price">
-                            <h1>$300</h1>
+                            <h1>$300+</h1>
                         </div>
                     </div>
                </div>
@@ -106,7 +106,7 @@ export default function DeepInteriorDetail() {
                </Link>
            </div>
            <div className="faq">
-               <h1 className='bold underline'>FAQ</h1>
+               <h1 className='bold underline'><a className='faq__link' href='faq'>FAQ</a></h1>
                <h4>Find the answers for the most frequently asked questions below</h4>
                <div className="questions__container">
                     <div className="question">

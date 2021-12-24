@@ -44,7 +44,18 @@ export default function OderRemoval() {
                <img className='car__servicepage__img' src={oderremovalimg} alt='wash-wax-car'/>
            </div>
            <div className="our__process">
-               <h1 className='bold'>Step by step process of oder removal</h1>
+           <p className='bold'>Please have in mind that most likely we’re going to need your car possibly more than a day</p>
+                <p>First of all, once you bring the car to us we’ll asses with you the problem that your car is having. You’re going to need our <a href='deep-interior-detail'>Deep Interior Detail</a> and the price will be determined by size and condition of car. </p>
+                <p>And the reason why you need that service is because there is no point of using the ozone generator if the car is not clean. It defeats the purpose and the smell might linger. </p>
+                <p>Let’s say for instance if your car got flooded or has leak somewhere, depending on the severity, were going to have to extract your car. We will have to price accordingly just for extracting, for severe cases anywhere from $50 and up.</p>
+                <p>If your car has mold/mildew already and the state of the car is bad your car need to be presoaked with disinfectant, we will have to determine and price accordingly.</p>
+                <p>If you spilled something that emits a strong odor, again everything is determined by the severity.</p>
+                <p>Once were done cleaning your car, we’ll inspect the affected areas, if the carpets and seats are saturated we’re going to dry them as best as possible. We have an air blower and leave the doors of your car open to let the sun help expedite the drying process. Please have in mind the weather is a big factor, especially in the winter time.</p>
+                <p>Once the carpets and seats are fully dried, then we put the ozone generator in the car.  Depending on how strong the odor is, we run the machine for an hour or so. After that the machine turns off and we let it sit for an hour closed and then we open the car and let it air out.</p>
+                <p>We do one final inspection, quick vacuum and let you know once your car is ready.</p>
+                <p className="bold">Look into our <a href='adonis-wash-and-wax'>Adonis Wash and Wax</a> Service if you need your exterior done as well. </p>
+                <p className="bold">This is the prices for an odor removal. It’s a deep interior Detail (depending on condition of car) plus ozone generator, which is $100. This price does not include extracting if the carpets are in severe condition. It’s usually $50+.</p><br/><br/>
+               <h1 className='bold'>Step by step process of odor removal</h1>
                 <div className="steps">
                     <ol>
                         <li>Any of loose items underneath the seats, cup holders or door panels that we deem garbage, will be disposed. If we find loose change, small personal belongings, paperwork etc., those types of items we will put in a separate bag and given to you at the end of the service.</li>
@@ -57,17 +68,6 @@ export default function OderRemoval() {
                         <li>A final walk through of the vehicle to see if we missed anything. Our thought process is “if we can see it, then so can the customer.”</li>
                     </ol>
                 </div>
-                <p className='bold'>Please have in mind that most likely we’re going to need your car possibly more than a day</p>
-                <p>First of all, once you bring the car to us we’ll asses with you the problem that your car is having. You’re going to need our <a href='deep-interior-detail'>Deep Interior Detail</a> and the price will be determined by size and condition of car. </p>
-                <p>And the reason why you need that service is because there is no point of using the ozone generator if the car is not clean. It defeats the purpose and the smell might linger. </p>
-                <p>Let’s say for instance if your car got flooded or has leak somewhere, depending on the severity, were going to have to extract your car. We will have to price accordingly just for extracting, for severe cases anywhere from $50 and up.</p>
-                <p>If your car has mold/mildew already and the state of the car is bad your car need to be presoaked with disinfectant, we will have to determine and price accordingly.</p>
-                <p>If you spilled something that emits a strong odor, again everything is determined by the severity.</p>
-                <p>Once were done cleaning your car, we’ll inspect the affected areas, if the carpets and seats are saturated we’re going to dry them as best as possible. We have an air blower and leave the doors of your car open to let the sun help expedite the drying process. Please have in mind the weather is a big factor, especially in the winter time.</p>
-                <p>Once the carpets and seats are fully dried, then we put the ozone generator in the car.  Depending on how strong the odor is, we run the machine for an hour or so. After that the machine turns off and we let it sit for an hour closed and then we open the car and let it air out.</p>
-                <p>We do one final inspection, quick vacuum and let you know once your car is ready.</p>
-                <p className="bold">Look into our <a href='adonis-wash-and-wax'>Adonis Wash and Wax</a> Service if you need your exterior done as well. </p>
-                <p className="bold">This is the prices for an odor removal. It’s a deep interior Detail (depending on condition of car) plus ozone generator, which is $100. This price does not include extracting if the carpets are in severe condition. It’s usually $50+.</p>
            </div>
            <div className="pricing">
                <h1 className='bold uppercase underline'>Pricing</h1>
@@ -110,7 +110,7 @@ export default function OderRemoval() {
                </Link>
            </div>
            <div className="faq">
-               <h1 className='bold underline'>FAQ</h1>
+               <h1 className='bold underline'><a className='faq__link' href='faq'>FAQ</a></h1>
                <h4>Find the answers for the most frequently asked questions below</h4>
                <div className="questions__container">
                     <div className="question">
