@@ -1,5 +1,6 @@
 import React, {useEffect} from 'react'
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 import PaintCarImage from '../../assets/paint-enhancement/paint-image.jpg';
 import background from '../../assets/paint-enhancement/background.jpeg';
@@ -13,6 +14,9 @@ export default function PaintEnhancement() {
 
     return (
         <div className='car__servicepage__container'>
+            <Helmet>
+                <meta name='description' content='Do you need to buff out swirl marks & light scratches from your car? Located in Queens, we can help you with a paint enhancement service.'/>
+            </Helmet>
             <div className='car__servicepage__top' style={{
                 background: `url(${background}) no-repeat center center fixed`,
                 backgroundSize: 'cover',

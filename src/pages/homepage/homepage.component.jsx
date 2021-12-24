@@ -1,5 +1,6 @@
 import React, {useEffect} from 'react'
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 import './homepage.styles.css';
 
@@ -8,7 +9,6 @@ import Service from '../../components/serviceslist/services.component';
 import Addons from '../../components/addonslist/addons.component';
 
 import {AiFillStar} from 'react-icons/ai';
-import { Helmet } from 'react-helmet';
 
 export default function Homepage() {
     useEffect(() => {

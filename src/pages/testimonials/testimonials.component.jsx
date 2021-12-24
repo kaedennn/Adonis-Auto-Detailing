@@ -1,4 +1,5 @@
 import React, { useEffect} from 'react'
+import { Helmet } from 'react-helmet';
 
 import TestimonialsCom from '../../components/testimonials/testimonials.component';
 
@@ -11,6 +12,9 @@ export default function Testimonials() {
 
     return (
         <div className='testimonial__container'>
+            <Helmet>
+                <meta name='description' content='Curious where you can get the most trustworthy auto detailing experience in Queens? Check out the reviews of your fellow neighbors.'/>
+            </Helmet>
             <div className='testimonial__top'>
                <div className='overlay'/>
                <h1 className='testimonial__top__text bold'>Check out what are customers have to say about Adonis Auto Detailing</h1>

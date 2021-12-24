@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 import basicdetailimg from '../../assets/basic-detail/basicdetailimg.jpg';
 import background from '../../assets/basic-detail/background.jpg';
@@ -13,6 +14,9 @@ export default function BasicDetail() {
 
     return (
         <div className='car__servicepage__container'>
+            <Helmet>
+                <meta name='description' content='Quick, simple and to the point, getting your car to the state it deserves to be in. We’re Queens’s #1 best auto detailing service.'/>
+            </Helmet>
             <div className='car__servicepage__top' style={{
                 background: `url(${background}) no-repeat center center fixed`,
                 backgroundSize: 'cover',

@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import { Helmet } from 'react-helmet';
 
 import './about.styles.css';
 
@@ -12,6 +13,9 @@ export default function About() {
 
     return (
         <div>
+            <Helmet>
+                <meta name='description' content='Local auto detailer from Queens, looking to give the best customer service this borough has to offer!'/>
+            </Helmet>
             <div className='aboutus__top'>
                <div className='overlay'/>
                <h1 className='aboutus__top__text bold'>Adonis Auto Detailing Mission Statement</h1>

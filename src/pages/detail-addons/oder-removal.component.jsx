@@ -1,5 +1,6 @@
 import React, { useEffect} from 'react'
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 import oderremovalimg from '../../assets/oder-removal/oder-removal-photo.jpg';
 import background from '../../assets/oder-removal/background.jpg';
@@ -13,6 +14,9 @@ export default function OderRemoval() {
 
     return (
         <div className='car__servicepage__container'>
+            <Helmet>
+                <meta name='description' content='Does your car have smoke, mildew, urine and other types of odors penetrated in your car? Let’s get your car decontaminated. ASAP!'/>
+            </Helmet>
             <div className='car__servicepage__top' style={{
                 background: `url(${background}) no-repeat center center fixed`,
                 backgroundSize: 'cover',

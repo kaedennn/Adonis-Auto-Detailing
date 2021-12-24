@@ -1,5 +1,6 @@
 import React, {useEffect} from 'react'
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 import interiordetail from '../../assets/interior-detail/interior-detail-car.jpg';
 import background from '../../assets/interior-detail/background.jpg'
@@ -13,6 +14,9 @@ export default function DeepInteriorDetail() {
 
     return (
         <div className='car__servicepage__container'>
+            <Helmet>
+                <meta name='description' content='Tired of seeing crumbs, tough stains, dust, in your car? Don’t hesitate bringing it to us and see its transformation!'/>
+            </Helmet>
             <div className='car__servicepage__top' style={{
                 background: `url(${background}) no-repeat center center fixed`,
                 backgroundSize: 'cover',

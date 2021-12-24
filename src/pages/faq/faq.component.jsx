@@ -1,4 +1,5 @@
 import React, {useEffect} from 'react'
+import { Helmet } from 'react-helmet';
 
 import './faq.styles.css';
 
@@ -9,6 +10,9 @@ export default function FAQ() {
 
     return (
         <div className='faq__container'>
+            <Helmet>
+                <meta name='description' content='We are certainly sure that you have questions and concerns. We have many answers to most detailing questions about each service we provide.'/>
+            </Helmet>
             <div className="faq__top">
                 <div className="overlay"/>
                 <h1 className='faq__top__text bold'>Get your questions answered here about our Auto Detailing Services</h1>

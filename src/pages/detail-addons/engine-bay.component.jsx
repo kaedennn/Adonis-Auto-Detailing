@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 import enginebayphoto from '../../assets/engine-bay/enginebayphoto.jpg';
 import background from '../../assets/engine-bay/background.jpg';
@@ -13,6 +14,9 @@ export default function EngineBay() {
 
     return (
         <div className='car__servicepage__container'>
+            <Helmet>
+                <meta name='description' content='Dirty, grimy engine bay or do you have mice droppings or infestation and the smell is unbearable? We can help!'/>
+            </Helmet>
             <div className='car__servicepage__top' style={{
                 background: `url(${background}) no-repeat center center fixed`,
                 backgroundSize: 'cover',

@@ -1,5 +1,6 @@
 import React, {useEffect} from 'react'
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 import premierCar from '../../assets/premier-wash/premier-image.jpg';
 import background from '../../assets/premier-wash/background.jpg';
@@ -13,6 +14,9 @@ export default function PremierWash() {
 
     return (
         <div className='car__servicepage__container'>
+            <Helmet>
+                <meta name='description' content='Not only are we making your vehicle stand out from the rest of the pack. We are striving to preserve the paint of your car. '/>
+            </Helmet>
             <div className='car__servicepage__top' style={{
                 background: `url(${background}) no-repeat center center fixed`,
                 backgroundSize: 'cover',

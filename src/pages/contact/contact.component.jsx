@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import { Helmet } from 'react-helmet';
 
 import background from '../../assets/contact/background.jpeg';
 
@@ -11,6 +12,9 @@ export default function Contact() {
 
     return (
         <div className='contact__container'>
+            <Helmet>
+                <meta name='description' content='Just be ready for an awesome experience when it comes to servicing our customers! You can call, text, email us, and we’ll get back to you as soon as possible.'/>
+            </Helmet>
             <div className='contact__top' style={{
             background: `url(${background}) no-repeat center center fixed`,
             backgroundSize: 'cover',

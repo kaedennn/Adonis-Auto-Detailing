@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import { Helmet } from 'react-helmet';
 
 import '../locations/locations.styles.css';
 import background from '../../assets/mobile-detailing/background.jpg';
@@ -10,6 +11,9 @@ export default function MobileDetailing() {
 
     return (
         <div>
+            <Helmet>
+                <meta name='description' content='Conveniently going to you for your auto detailing needs'/>
+            </Helmet>
             <div className='location__top' style={{
                 background: `url(${background}) no-repeat center center fixed`,
                 backgroundSize: 'cover',

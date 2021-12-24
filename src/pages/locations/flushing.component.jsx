@@ -1,4 +1,5 @@
 import React, {useEffect} from 'react'
+import { Helmet } from 'react-helmet';
 
 import './locations.styles.css';
 import background from '../../assets/flushing/background.jpg';
@@ -10,6 +11,9 @@ export default function Flushing() {
 
     return (
         <div>
+            <Helmet>
+                <meta name='description' content='Flushing based location. Let’s help you out with your auto detailing needs. '/>
+            </Helmet>
             <div className='location__top' style={{
                 background: `url(${background}) no-repeat center center fixed`,
                 backgroundSize: 'cover',

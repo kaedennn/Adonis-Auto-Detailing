@@ -1,4 +1,5 @@
 import React, {useEffect} from 'react'
+import { Helmet } from 'react-helmet';
 
 import ImageGallery from '../../components/gallery/gallery.component';
 
@@ -11,6 +12,9 @@ export default function Gallery() {
 
     return (
         <div className='gallery__container'>
+            <Helmet>
+                <meta name='description' content='Before and After Pictures of the car detailing services we provide in Queens.'/>
+            </Helmet>
             <div className='gallery__top'>
                <div className='overlay'/>
                <h1 className='gallery__top__text bold'>Checkout our amazing work!</h1>

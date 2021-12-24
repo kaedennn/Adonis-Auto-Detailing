@@ -1,5 +1,6 @@
 import React, {useEffect} from 'react'
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 import smokeoderremoval from '../../assets/smoke-oder-removal/smoke-oder-removal.jpg';
 import background from '../../assets/smoke-oder-removal/background.jpg';
@@ -13,6 +14,9 @@ export default function SmokeRemoval() {
 
     return (
         <div className='car__servicepage__container'>
+            <Helmet>
+                <meta name='description' content='Do you need to remove the smoke odor from the interior of your car? We specialize in those services. '/>
+            </Helmet>
             <div className='car__servicepage__top' style={{
                 background: `url(${background}) no-repeat center center fixed`,
                 backgroundSize: 'cover',

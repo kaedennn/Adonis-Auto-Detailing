@@ -1,4 +1,5 @@
 import React, {useEffect} from 'react'
+import { Helmet } from 'react-helmet';
 
 import './locations.styles.css';
 
@@ -9,6 +10,9 @@ export default function Queens() {
 
     return (
         <div>
+            <Helmet>
+                <meta name='description' content='Find out why more and more of our neighbors come to us for their detailing services, and how you could also benefit as well.'/>
+            </Helmet>
             <div className='location__top'>
                 <div className='overlay'/>
                 <h1 className='location__top__text bold'>Adonis Auto Detailing Service rightfully located in Queens</h1>

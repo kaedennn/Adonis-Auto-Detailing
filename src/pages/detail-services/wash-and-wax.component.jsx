@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 import washandwaxcar from '../../assets/wash-and-wax/main-car.jpg'
 import background from '../../assets/wash-and-wax/background.jpg';
@@ -9,6 +10,9 @@ import './car-services.styles.css';
 export default function WashAndWax() {
     return (
         <div className='car__servicepage__container'>
+            <Helmet>
+                <meta name='description' content='Upgrade your vehicle’s paint with a wash and wax in Queens.  You’ll be on the road driving your car like it was the first time. '/>
+            </Helmet>
             <div className='car__servicepage__top' style={{
                 background: `url(${background}) no-repeat center center fixed`,
                 backgroundSize: 'cover',

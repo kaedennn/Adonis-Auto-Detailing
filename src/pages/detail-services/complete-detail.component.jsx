@@ -1,5 +1,6 @@
 import React, {useEffect} from 'react'
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 import completedetailimg from '../../assets/complete-detail/complete-detail-pic.jpg';
 import background from '../../assets/complete-detail/background.png';
@@ -13,6 +14,9 @@ export default function CompleteDetail() {
 
     return (
         <div className='car__servicepage__container'>
+            <Helmet>
+                <meta name='description' content='Does your entire car (interior and exterior) need a deep and thorough cleaning? You’ve come to the right spot!'/>
+            </Helmet>
             <div className='car__servicepage__top' style={{
                 background: `url(${background}) no-repeat center center fixed`,
                 backgroundSize: 'cover',
