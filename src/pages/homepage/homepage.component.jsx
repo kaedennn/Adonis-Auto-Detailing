@@ -8,6 +8,7 @@ import Service from '../../components/serviceslist/services.component';
 import Addons from '../../components/addonslist/addons.component';
 
 import {AiFillStar} from 'react-icons/ai';
+import { Helmet } from 'react-helmet';
 
 export default function Homepage() {
     useEffect(() => {
@@ -16,6 +17,9 @@ export default function Homepage() {
 
     return (
         <div className='homepage__container'>
+            <Helmet>
+                <meta name='description' content='Getting your entire car to the state it deserves to be in. We’re Queens’s #1 best auto detailing service.' />
+            </Helmet>
            <div className='homepage__top'>
                <div className='overlay'/>
                <h1 className='homepage__top__text bold'>Dedicated and Thorough Auto Detailing in Queens, NY</h1>
