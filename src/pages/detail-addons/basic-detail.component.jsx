@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom';
 
 import basicdetailimg from '../../assets/basic-detail/basicdetailimg.jpg';
@@ -7,6 +7,10 @@ import background from '../../assets/basic-detail/background.jpg';
 import '../detail-services/car-services.styles.css';
 
 export default function BasicDetail() {
+    useEffect(() => {
+        document.title = "Adonis Auto Detailing - A quick basic interior detailing in Queens, NY"
+     }, []);
+
     return (
         <div className='car__servicepage__container'>
             <div className='car__servicepage__top' style={{

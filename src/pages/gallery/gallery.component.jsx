@@ -1,10 +1,14 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 
 import ImageGallery from '../../components/gallery/gallery.component';
 
 import './gallery.styles.css';
 
 export default function Gallery() {
+    useEffect(() => {
+        document.title = "Auto Detailing Detailing - Choosing the best options for your car through our gallery"
+     }, []);
+
     return (
         <div className='gallery__container'>
             <div className='gallery__top'>

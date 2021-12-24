@@ -1,9 +1,13 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 
 import './locations.styles.css';
 import background from '../../assets/flushing/background.jpg';
 
 export default function Flushing() {
+    useEffect(() => {
+        document.title = "Auto Detailing Detailing - The Best Auto Detailing in Flushing, Queens"
+     }, []);
+
     return (
         <div>
             <div className='location__top' style={{

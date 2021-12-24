@@ -32,11 +32,6 @@ export default function Addons() {
             website: 'Google'
         },
         {
-            name:'Nellie Bosch',
-            review:'ABSOLUTELY recommend Adonis Auto Detailing! Junior did an impeccable job on my Hercules (Silver Hyundai Sonata). He is extremely professional and amazingly pleasant to speak to. I brought Hercules to the garage intending to take a bus back home, and instead he drove me home, and later on brought Hercules back to me! He gave me all the details of what he was going to do, and even updated me while he had the car. Do NOT let the prices discourage you, he is worth every cent! He got out spots on my car that even other professionals didn’t get out for me. Will definitely go back to him.',
-            website: 'Google'
-        },
-        {
             name:'Shantel Rodriguez',
             review:"Junior was really really great. I had a first appointment but could not make it and had to reschedule. On the day of the reschedule, I showed up and was planning to take an Uber back home (10 mins away) but Junior offered to drop me back since I had my child with me so I wouldn't waste any money. He cleaned the inside of my car very well. He's a really humble guy and I love that I was supporting a  small business. Great job!!!",
             website: 'Google'

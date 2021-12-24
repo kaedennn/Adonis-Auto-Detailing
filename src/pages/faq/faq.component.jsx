@@ -1,8 +1,12 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 
 import './faq.styles.css';
 
 export default function FAQ() {
+    useEffect(() => {
+        document.title = "Auto Detailing FAQ - Adonis Auto Detailing Services Queens, NY"
+     }, []);
+
     return (
         <div className='faq__container'>
             <div className="faq__top">

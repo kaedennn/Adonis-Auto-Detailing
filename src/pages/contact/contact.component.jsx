@@ -1,10 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import background from '../../assets/contact/background.jpeg';
 
 import './contact.styles.css';
 
 export default function Contact() {
+    useEffect(() => {
+        document.title = "Adonis Auto Detailing - Contact"
+     }, []);
+
     return (
         <div className='contact__container'>
             <div className='contact__top' style={{

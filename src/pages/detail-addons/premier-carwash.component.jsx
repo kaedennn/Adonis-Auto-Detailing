@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { Link } from 'react-router-dom';
 
 import premierCar from '../../assets/premier-wash/premier-image.jpg';
@@ -7,6 +7,10 @@ import background from '../../assets/premier-wash/background.jpg';
 import '../detail-services/car-services.styles.css';
 
 export default function PremierWash() {
+    useEffect(() => {
+        document.title = "Adonis Auto Detailing - The one and only premier car wash in Queens, NY"
+     }, []);
+
     return (
         <div className='car__servicepage__container'>
             <div className='car__servicepage__top' style={{

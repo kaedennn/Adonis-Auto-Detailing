@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import './about.styles.css';
 
@@ -6,6 +6,10 @@ import carpic from "../../assets/about/carpic.jpg";
 import junior from '../../assets/about/junior.jpg';
 
 export default function About() {
+    useEffect(() => {
+        document.title = "Adonis Auto Detailing - About Us"
+     }, []);
+
     return (
         <div>
             <div className='aboutus__top'>

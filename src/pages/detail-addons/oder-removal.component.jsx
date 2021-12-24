@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect} from 'react'
 import { Link } from 'react-router-dom';
 
 import oderremovalimg from '../../assets/oder-removal/oder-removal-photo.jpg';
@@ -7,6 +7,10 @@ import background from '../../assets/oder-removal/background.jpg';
 import '../detail-services/car-services.styles.css';
 
 export default function OderRemoval() {
+    useEffect(() => {
+        document.title = "Adonis Auto Detailing - The one spot in Queens, that offers Quality Odor Removal Services for your vehicle!"
+     }, []);
+
     return (
         <div className='car__servicepage__container'>
             <div className='car__servicepage__top' style={{

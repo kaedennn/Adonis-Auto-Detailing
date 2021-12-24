@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { Link } from 'react-router-dom';
 
 import smokeoderremoval from '../../assets/smoke-oder-removal/smoke-oder-removal.jpg';
@@ -7,6 +7,10 @@ import background from '../../assets/smoke-oder-removal/background.jpg';
 import '../detail-services/car-services.styles.css';
 
 export default function SmokeRemoval() {
+    useEffect(() => {
+        document.title = "Adonis Auto Detailing - Thorough Smoke Odor Removal service in Queens, NY"
+     }, []);
+
     return (
         <div className='car__servicepage__container'>
             <div className='car__servicepage__top' style={{

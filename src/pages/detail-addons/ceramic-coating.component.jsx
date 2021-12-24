@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom';
 
 import ceramiccoatingimg from '../../assets/ceramic-coating/ceramiccoatingimg.jpg';
@@ -7,6 +7,10 @@ import background from '../../assets/ceramic-coating/background.jpeg';
 import '../detail-services/car-services.styles.css';
 
 export default function CeramicCoating() {
+    useEffect(() => {
+        document.title = "Adonis Auto Detailing - Get the shiniest paint in Queens, NY"
+     }, []);
+
     return (
         <div className='car__servicepage__container'>
             <div className='car__servicepage__top' style={{

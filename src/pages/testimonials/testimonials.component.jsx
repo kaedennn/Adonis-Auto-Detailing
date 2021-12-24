@@ -1,10 +1,14 @@
-import React from 'react'
+import React, { useEffect} from 'react'
 
 import TestimonialsCom from '../../components/testimonials/testimonials.component';
 
 import './testimonials.styles.css';
 
 export default function Testimonials() {
+    useEffect(() => {
+        document.title = "Auto Detailing Detailing - Check out what your fellow Queens’s residents got to say about our auto detailing services."
+     }, []);
+
     return (
         <div className='testimonial__container'>
             <div className='testimonial__top'>

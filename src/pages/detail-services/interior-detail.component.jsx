@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { Link } from 'react-router-dom';
 
 import interiordetail from '../../assets/interior-detail/interior-detail-car.jpg';
@@ -7,6 +7,10 @@ import background from '../../assets/interior-detail/background.jpg'
 import './car-services.styles.css';
 
 export default function DeepInteriorDetail() {
+    useEffect(() => {
+        document.title = "Adonis Auto Detailing - Top quality intensive Interior Detailing Services in Queens, NYC"
+     }, []);
+
     return (
         <div className='car__servicepage__container'>
             <div className='car__servicepage__top' style={{

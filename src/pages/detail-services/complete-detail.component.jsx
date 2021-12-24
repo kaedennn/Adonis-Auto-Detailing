@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { Link } from 'react-router-dom';
 
 import completedetailimg from '../../assets/complete-detail/complete-detail-pic.jpg';
@@ -7,6 +7,10 @@ import background from '../../assets/complete-detail/background.png';
 import './car-services.styles.css';
 
 export default function CompleteDetail() {
+    useEffect(() => {
+        document.title = "Adonis Auto Detailing - Revamping your Vehicle with a complete detail, right here in Queens, NYC."
+     }, []);
+
     return (
         <div className='car__servicepage__container'>
             <div className='car__servicepage__top' style={{

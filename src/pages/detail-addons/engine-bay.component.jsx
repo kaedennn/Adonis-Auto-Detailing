@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom';
 
 import enginebayphoto from '../../assets/engine-bay/enginebayphoto.jpg';
@@ -7,6 +7,10 @@ import background from '../../assets/engine-bay/background.jpg';
 import '../detail-services/car-services.styles.css';
 
 export default function EngineBay() {
+    useEffect(() => {
+        document.title = "Adonis Auto Detailing - Premium Engine Bay Detailing Service in Queens, NYC"
+     }, []);
+
     return (
         <div className='car__servicepage__container'>
             <div className='car__servicepage__top' style={{

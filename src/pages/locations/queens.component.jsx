@@ -1,8 +1,12 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 
 import './locations.styles.css';
 
 export default function Queens() {
+    useEffect(() => {
+        document.title = "Auto Detailing Detailing - Conveniently located in the Heart of Queens, NY"
+     }, []);
+
     return (
         <div>
             <div className='location__top'>

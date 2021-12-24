@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { Link } from 'react-router-dom';
 
 import PaintCarImage from '../../assets/paint-enhancement/paint-image.jpg';
@@ -7,6 +7,10 @@ import background from '../../assets/paint-enhancement/background.jpeg';
 import './car-services.styles.css';
 
 export default function PaintEnhancement() {
+    useEffect(() => {
+        document.title = "Adonis Auto Detailing - Enrich your car’s paint with a Paint enhancement in Queens, NY"
+     }, []);
+
     return (
         <div className='car__servicepage__container'>
             <div className='car__servicepage__top' style={{

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { Link } from 'react-router-dom';
 
 import './homepage.styles.css';
@@ -10,6 +10,10 @@ import Addons from '../../components/addonslist/addons.component';
 import {AiFillStar} from 'react-icons/ai';
 
 export default function Homepage() {
+    useEffect(() => {
+        document.title = "Auto Detailing Detailing - Dedicated and Thorough Auto Detailing in Queens, NY"
+     }, []);
+
     return (
         <div className='homepage__container'>
            <div className='homepage__top'>

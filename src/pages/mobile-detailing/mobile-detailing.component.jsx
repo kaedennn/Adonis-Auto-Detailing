@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import '../locations/locations.styles.css';
 import background from '../../assets/mobile-detailing/background.jpg';
 
 export default function MobileDetailing() {
+    useEffect(() => {
+        document.title = "Auto Detailing Detailing - Mobile Detailing services all over Queens"
+     }, []);
+
     return (
         <div>
             <div className='location__top' style={{
