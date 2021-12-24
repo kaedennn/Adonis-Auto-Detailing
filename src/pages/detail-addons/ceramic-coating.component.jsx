@@ -71,7 +71,7 @@ export default function CeramicCoating() {
                     </div>
                     <div className="pricing__card">
                         <div className="pricing__card__title">
-                            <h4>Mid-size Sedan</h4>
+                            <h4>2 rows (Mid-size Sedan)</h4>
                         </div>
                         <div className="service__price">
                             <h1>$400-$500</h1>
@@ -79,7 +79,7 @@ export default function CeramicCoating() {
                     </div>
                     <div className="pricing__card">
                         <div className="pricing__card__title">
-                            <h4>SUV or Van</h4>
+                            <h4>3 rows (SUV or Van)</h4>
                         </div>
                         <div className="service__price">
                             <h1>$450-$550</h1>

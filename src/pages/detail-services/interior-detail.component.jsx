@@ -32,7 +32,7 @@ export default function DeepInteriorDetail() {
                     </p>
                     <p>
                         While you’re at it, why don’t you upgrade it to a <a href='complete-detail'>Complete Detailing</a>? Or if you want your car’s paint nice
-                        and save, try the <a href='paint-enhancement'>Paint Enhancement</a>.
+                        and suave, try the <a href='paint-enhancement'>Paint Enhancement</a>.
                     </p>
                     <p>
                         Both seats and carpet will be shampooed and you can rest assure if you have any light stains on either
@@ -86,7 +86,7 @@ export default function DeepInteriorDetail() {
                     </div>
                     <div className="pricing__card">
                         <div className="pricing__card__title">
-                            <h4>Mid-size Sedan</h4>
+                            <h4>2 rows (Mid-size Sedan)</h4>
                         </div>
                         <div className="service__price">
                             <h1>$250+</h1>
@@ -94,7 +94,7 @@ export default function DeepInteriorDetail() {
                     </div>
                     <div className="pricing__card">
                         <div className="pricing__card__title">
-                            <h4>SUV or Van</h4>
+                            <h4>3 rows (SUV or Van)</h4>
                         </div>
                         <div className="service__price">
                             <h1>$300+</h1>

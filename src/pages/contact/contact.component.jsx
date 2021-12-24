@@ -42,15 +42,15 @@ export default function Contact() {
                         <label className='check-label'>Deep Interior Detail <input className='check-option' type='checkbox' id='opt2' name='deep-interior-detail'/></label>
                         <label className='check-label'>Adonis Car Wash And Wax  <input className='check-option' type='checkbox' id='opt3' name='wash-and-wax'/></label>
                         <label className='check-label'>Paint Enhancement <input className='check-option' type='checkbox' id='opt4' name='paint-enhancement'/></label>
+                        <label className='check-label'>Ceramic Coating <input className='check-option' type='checkbox' id='opt5' name='ceramic-coating'/></label>
 
                         <h6 className='bold top20'>Add-ons:</h6>
-                        <label className='check-label'>Basic Interior <input className='check-option' type='checkbox' id='opt5' name='basic-interior'/></label>
-                        <label className='check-label'>Premier Car Wash <input className='check-option' type='checkbox' id='opt6' name='premier-car-wash'/></label>
-                        <label className='check-label'>Engine Bay Cleaning <input className='check-option' type='checkbox' id='opt7' name='engine-bay'/></label>
-                        <label className='check-label'>Headlight Restoration <input className='check-option' type='checkbox' id='opt8' name='headlight-restoration'/></label>
-                        <label className='check-label'>Oder Removal <input className='check-option' type='checkbox' id='opt9' name='oder-removal'/></label>
-                        <label className='check-label'>Smoke Oder Removal <input className='check-option' type='checkbox' id='opt10' name='smoke-oder-removal'/></label>
-                        <label className='check-label'>Ceramic Coating <input className='check-option' type='checkbox' id='opt11' name='ceramic-coating'/></label>
+                        <label className='check-label'>Basic Interior <input className='check-option' type='checkbox' id='opt6' name='basic-interior'/></label>
+                        <label className='check-label'>Premier Car Wash <input className='check-option' type='checkbox' id='opt7' name='premier-car-wash'/></label>
+                        <label className='check-label'>Engine Bay Cleaning <input className='check-option' type='checkbox' id='opt8' name='engine-bay'/></label>
+                        <label className='check-label'>Headlight Restoration <input className='check-option' type='checkbox' id='opt9' name='headlight-restoration'/></label>
+                        <label className='check-label'>Odor Removal <input className='check-option' type='checkbox' id='opt10' name='oder-removal'/></label>
+                        <label className='check-label'>Smoke Odor Removal <input className='check-option' type='checkbox' id='opt11' name='smoke-oder-removal'/></label>
 
                         <label className='check-label' for="message">Message<textarea name="message" id="message" cols="30" rows="10" placeholder="Let us know if you have any questions or concerns"></textarea></label>
                         <button id="form-button" type="submit">Send Message</button>
