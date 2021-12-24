@@ -37,6 +37,13 @@
 
     .carpic__img {
         width: auto;
+        height: 275px;
+        margin-bottom: 10%;
+    }
+
+    .juniorpic {
+        width: auto;
+        height: 400px;
         margin-bottom: 10%;
     }
 }
@@ -48,6 +55,12 @@
 
     .carpic__img {
         width: auto;
+        margin-bottom: 10%;
+    }
+
+    .juniorpic {
+        width: auto;
+        height: auto;
         margin-bottom: 10%;
     }
 }

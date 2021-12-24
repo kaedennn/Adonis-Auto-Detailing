@@ -30,7 +30,7 @@ export default function About() {
                    <p>I didn’t want to get paid, I was just happy to be out of the house and learning something new. With each day I learned more about auto detailing. I became very involved and began watching YouTube videos and reading blogs. My friend suggested I should start doing this on my own so that’s what exactly I did! I posted on Instagram, Facebook, WhatsApp and my sisters reposted the information, and that’s how Adonis Auto Detailing Service started.</p>
                    <p>Why the name Adonis? Adonis has my middle initial (A) and my last name Donis, thus putting them together: Adonis, representing me.</p>
                </div>
-               <img className='carpic__img' src={junior} alt="car pic" />
+               <img className='juniorpic' src={junior} alt="car pic" />
            </div>
         </div>
     )

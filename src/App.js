@@ -1,5 +1,5 @@
-import React from 'react';
-import { Route, Routes } from 'react-router-dom';
+import React, {useEffect} from 'react';
+import { Route, Routes, useLocation } from 'react-router-dom';
 
 import Navigation from './components/navigation/navigation.component';
 import Footer from './components/footer/footer.component';
@@ -28,8 +28,19 @@ import About from './pages/about/about.component';
 import './App.css';
 
 function App() {
+  function ScrollToTop() {
+    const { pathname } = useLocation();
+  
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [pathname]);
+  
+    return null;
+  }
+
   return (
     <div>
+      <ScrollToTop/>
       <Navigation/>
       <Routes>
         <Route exact path='/' element={<Homepage/>}/>
