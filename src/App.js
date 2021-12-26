@@ -64,7 +64,7 @@ function App() {
         <Route path='mobile-detailing' element={<MobileDetailing/>}/>
         <Route path='testimonials' element={<Testimonials/>}/>
         <Route path='about' element={<About/>}/>
-        <Route path='success' element={<Success/>}/>
+        <Route path='thanks' element={<Success/>}/>
       </Routes>
       <Footer/>
     </div>
