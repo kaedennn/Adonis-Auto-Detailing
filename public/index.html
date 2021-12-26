@@ -11,15 +11,39 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <form name='contact' method='POST' data-netlify='true' netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="contact" />
+      <h6 className='bold top20'>Information:</h6>
+      <label className='bold' for='fname'>Name</label>
+      <input id='fname' name='fname' type='text' placeholder='Enter your full name' required />
+      <label className='bold' for='email'>Email</label>
+      <input id='email' name='email' type='email' placeholder='Enter your email' required />
+      
+      <h6 className='bold top20'>Vehicle Info:</h6>
+      <label className='bold' for='make'>Make</label>
+      <input id='make' name='make' type='text' placeholder='ex. Honda'/>
+      <label className='bold' for='model'>Model</label>
+      <input id='model' name='model' type='text' placeholder='ex. Civic'/>
+      <label className='bold' for='year'>Year</label>
+      <input id='year' name='year' type='text' placeholder='ex. 2021'/>
+      
+      <h6 className='bold top20'>Services:</h6>
+      <label className='check-label'>Complete Detail <input className='check-option' type='checkbox' id='opt1' name='complete-detail'/></label>
+      <label className='check-label'>Deep Interior Detail <input className='check-option' type='checkbox' id='opt2' name='deep-interior-detail'/></label>
+      <label className='check-label'>Adonis Car Wash And Wax  <input className='check-option' type='checkbox' id='opt3' name='wash-and-wax'/></label>
+      <label className='check-label'>Paint Enhancement <input className='check-option' type='checkbox' id='opt4' name='paint-enhancement'/></label>
+      <label className='check-label'>Ceramic Coating <input className='check-option' type='checkbox' id='opt5' name='ceramic-coating'/></label>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+      <h6 className='bold top20'>Add-ons:</h6>
+      <label className='check-label'>Basic Interior <input className='check-option' type='checkbox' id='opt6' name='basic-interior'/></label>
+      <label className='check-label'>Premier Car Wash <input className='check-option' type='checkbox' id='opt7' name='premier-car-wash'/></label>
+      <label className='check-label'>Engine Bay Cleaning <input className='check-option' type='checkbox' id='opt8' name='engine-bay'/></label>
+      <label className='check-label'>Headlight Restoration <input className='check-option' type='checkbox' id='opt9' name='headlight-restoration'/></label>
+      <label className='check-label'>Odor Removal <input className='check-option' type='checkbox' id='opt10' name='oder-removal'/></label>
+      <label className='check-label'>Smoke Odor Removal <input className='check-option' type='checkbox' id='opt11' name='smoke-oder-removal'/></label>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+      <label className='check-label' for="message">Message<textarea name="message" id="message" cols="30" rows="10" placeholder="Let us know if you have any questions or concerns"></textarea></label>
+      <button id="form-button" type="submit">Send Message</button>
+    </form>
   </body>
 </html>
