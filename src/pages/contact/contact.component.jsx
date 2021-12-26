@@ -30,7 +30,7 @@ export default function Contact() {
             <div className="contact__form__container">
                 <h1 className='bold uppercase'>Send us a message</h1>
                 <div className="contact__form">
-                    <form name='contact' method='POST' action='/success' data-netlify='true' netlify-honeypot="bot-field">
+                    <form name='contact' method='POST' action='/success/' data-netlify='true' netlify-honeypot="bot-field">
                         <input type="hidden" name="form-name" value="contact" />
                         <h6 className='bold top20'>Information:</h6>
                         <label className='bold' for='fname'>Full Name</label>
