@@ -24,7 +24,6 @@ import FAQ from './pages/faq/faq.component';
 import MobileDetailing from './pages/mobile-detailing/mobile-detailing.component';
 import Testimonials from './pages/testimonials/testimonials.component';
 import About from './pages/about/about.component';
-import Success from './pages/success/success.component';
 
 import './App.css';
 
@@ -64,7 +63,6 @@ function App() {
         <Route path='mobile-detailing' element={<MobileDetailing/>}/>
         <Route path='testimonials' element={<Testimonials/>}/>
         <Route path='about' element={<About/>}/>
-        <Route path='thanks' element={<Success/>}/>
       </Routes>
       <Footer/>
     </div>
